@@ -1,0 +1,368 @@
+doctype html
+html(lang="en")
+    head
+        title #{title}
+        meta(name="viewport", content="width=device-width,initial-scale=1.0")
+
+        block styles
+        style.
+            body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            }
+            #reset {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            }
+            /*Car*/
+            .car {
+              position: absolute;
+              width: 8.78%;
+              height: 17%;
+              top: 70%;
+              left: 50%;
+              z-index: 9;
+            }
+
+            .rightO {
+              position: absolute;
+              width: 40%;
+              height: 100%;
+              top: 50%;
+              left: 75%;
+              z-index: 9;
+              /*background: black;*/
+            }
+            .leftO {
+              position: absolute;
+              width: 40%;
+              height: 100%;
+              top: 50%;
+              left: -15%;
+              z-index: 9;
+              /*background: black;*/
+            }
+
+            .fire {
+              /*background: url('http://www.pngall.com/wp-content/uploads/2016/06/Rock-PNG-Picture.png') no-repeat;*/
+              background: url('https://s23.postimg.org/hk8xhhp17/rock.png') no-repeat;
+              background-size: cover;
+              width: 7%;
+              height: 7%;
+              position: absolute;
+              top: 25%;
+              z-index: 9;
+            }
+
+            .car > div {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            }
+            .car-body {
+            background: url('https://s30.postimg.org/4xrcx4inl/car_body.png');
+            background-size: 100% 100%;
+            }
+            .tires {
+            background: url(http://zoonthemes.com/web-animations/car/v.1/img/sport-tires.png) no-repeat;
+            background-size: cover;
+            }
+            /*Road Side*/
+            .road-object {
+            }
+            .road-object,
+            .shadow {
+            position: absolute;
+            bottom: -180px;
+            width: 70%;
+            height: 129px;
+            z-index: 1;
+            left: 45%;
+            }
+            .shadow {
+            top: 100%;
+            z-index: -1;
+            opacity: 0;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            }
+            .cactus {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            right: auto;
+            background: url(https://openclipart.org/image/2400px/svg_to_png/201901/cactus.png) no-repeat;
+            background-size: 129px;
+            }
+            /*Ground*/
+            #ground {
+            position: absolute;
+            width: 100%;
+            height: 80%;
+            display: block;
+            top: 7%;
+            }
+            .ground {
+            position: absolute;
+            width: 100%;
+            height: 80%;
+            top: 33%;
+            background: url('http://image.noelshack.com/fichiers/2012/52/1356581937-editor-2012-12-27-05-18-04-86.png');
+            background-size: cover;
+            }
+            /*Road*/
+            .road {
+            position: relative;
+            width: 33%;
+            height: 100%;
+            bottom: 0;
+            margin: auto;
+            background: #2b373d;
+            border-left: 8px solid #ddd;
+            border-right: 8px solid #ddd;
+            overflow: hidden;
+            display: block;
+            }
+            .lines {
+            position: relative;
+            width: 0;
+            height: 100%;
+            top: -20%;
+            margin: auto;
+            border-left: 8px dashed #bf9000;
+            }
+            /*Road Side*/
+            /*Sky*/
+            #sky {
+            position: absolute;
+            width: 100%;
+            height: 200%;
+            top: 0;
+            background: url('http://www.corgan75.com/images/objects/1998-2008/cccc-sky.png') no-repeat;
+            background-size: cover;
+            }
+            #sky p {
+            padding: 0 20px;
+            color: #333;
+            font-weight: bold;
+            }
+            .mountain {
+            position: absolute;
+            width: 1024px;
+            height: 720px;
+            top: 40%;
+            left: 30%;
+            background: url(http://www.pngall.com/wp-content/uploads/2016/06/Castle-Transparent.png) no-repeat;
+            background-size: 1024px 720px;
+            -ms-transform: scale(0.5);
+            -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+            }
+            .health-bar {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 50%;
+            margin-left: 25%;
+            height: 20px;
+            padding: 5px;
+            background: #ddd;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            position: relative;
+            }
+            .bar {
+            background: #c54;
+            width: 100%;
+            height: 10px;
+            position: relative;
+            transition: width .5s linear;
+            }
+            .hit {
+            background: rgba(255,255,255,0.6);
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 0px;
+            transition: width .5s linear;
+            }
+            #game {
+            display: none;
+            }
+
+    body
+        block content
+        block scripts
+        script.
+            $(document).ready(function() {
+            var $sky = $('.sky'),
+            $ground = $('.ground'),
+            $road = $('.road'),
+            $roadObj = $('.road-object'),
+            $roadObjL = $('.road-object.left'),
+            $roadObjR = $('.road-object.right'),
+            $shadow = $('.shadow'),
+            $lines = $('.lines'),
+            $car = $('.car'),
+            $carBody = $('.car-body'),
+            $mountain = $('.mountain');
+            // Presets
+            TweenMax.set($road, {
+            rotationX: 30,
+            transformPerspective: 120
+            });
+            TweenMax.set($roadObjL, {
+            rotationY: '+=180'
+            });
+            TweenMax.set($shadow, {
+            rotationX: 180
+            });
+            TweenMax.set($car, {
+            xPercent: -50
+            });
+            // Car Animation
+            TweenMax.to($carBody, 0.2, {
+            yPercent: 2,
+            yoyo: true,
+            repeat: -1
+            });
+            // Road Animation Elements
+            // var linesSpeed = -100;
+            TweenMax.from($lines, 4, {
+            yPercent: -100,
+            ease: Linear.easeNone,
+            repeat: -1
+            });
+            // setInterval(function() {
+            //   linesSpeed = linesSpeed - 100;
+            // }, 1000)
+            // setInterval(function() {
+            //     $lines.animate({top: "+=10990"}, '60000', 'swing')
+            //     $lines.animate({top: "-=10990"}, '60000', 'swing')
+            //   }, 100)
+            TweenMax.from($('#sky'), 200, {
+            yPercent: -85,
+            repeat: -1,
+            ease: Linear.easeNone
+            });
+            TweenMax.staggerFrom($roadObj, 4, {
+            top: '100',
+            ease: Power1.easeIn,
+            scale: 0.7,
+            repeat: -1
+            }, 1);
+            //Background Mountain Animation
+            TweenMax.to($mountain, 50, {
+            yPercent: -100,
+            xPercent: 50,
+            scale: 0.5,
+            ease: Linear.easeNone
+            });
+            // Keyboard Actions
+            $(document).keydown(function(e) {
+            if (e.keyCode === 37) {
+            TweenMax.to($car, 0.3, {
+            x: '-=40'
+            });
+            } else if (e.keyCode === 39) {
+            TweenMax.to($car, 0.33, {
+            x: '+=40',
+            });
+            }
+            });
+            setInterval(function() {
+            $('#obs').html('<div class="fire" style="left: ' +
+            Math.round(Math.random() * (60-33) + 35) +
+            '%"></div>');
+            TweenMax.to($('.fire'), 9, {
+            yPercent: 9000,
+            ease: Linear.easeNone,
+            })
+            }, 1500)
+            // function carPosY() {
+            //   var pos = $('.car').position().top;
+            //   if (pos < 0) {
+            //     TweenMax.to($car, 0.01, {
+            //       y: '+=10',
+            //       scale: '+=0.035'
+            //     });
+            //     console.log('top limit reached');
+            //   } else if (pos > 150) {
+            //     TweenMax.to($car, 0.01, {
+            //       y: '-=10',
+            //       scale: '-=0.035'
+            //     });
+            //     console.log('bottom limit reached');
+            //   }
+            // }
+            function carPosx() {
+            // var pos = $('.car').position().left;
+            // // console.log(pos)
+            // // console.log(window.innerWidth)
+            // var rightMax = (window.innerWidth/2) + (window.innerWidth/8);
+            // var leftMax = (window.innerWidth/2) - (window.innerWidth/3);
+            // if(pos > rightMax){
+            //   console.log('right')
+            //   if(!dead) {
+            //     damage();
+            //   }
+            // }
+            // if(pos < leftMax) {
+            //   console.log('left')
+            //   if(!dead) {
+            //     damage();
+            //   }
+            // }
+            // if (pos < 0) {
+            //   TweenMax.to($car, 0.01, {
+            //     x: '+=10',
+            //     scale: '+=0.035'
+            //   });
+            //   console.log('top limit reached');
+            // } else if (pos > 150) {
+            //   TweenMax.to($car, 0.01, {
+            //     x: '-=10',
+            //     scale: '-=0.035'
+            //   });
+            //   console.log('bottom limit reached');
+            // }
+            }
+
+            function damage(){
+            };
+            $('#reset').click(function(e){
+            hBar.data('value', hBar.data('total'));
+            hit.css({'width': '0'});
+            bar.css('width', '100%');
+            localStorage['dead'] = 0;
+            $('#reset').css({'display': 'none'})
+            $('#health').html(100);
+            $('.car').offset({left: window.innerWidth/2 - window.innerWidth*8.7/200});
+            });
+            function collision($div1, $div2) {
+            var x1 = $div1.offset().left;
+            var y1 = $div1.offset().top;
+            var h1 = $div1.outerHeight(true);
+            var w1 = $div1.outerWidth(true);
+            var b1 = y1 + h1;
+            var r1 = x1 + w1;
+            var x2 = $div2.offset().left;
+            var y2 = $div2.offset().top;
+            var h2 = $div2.outerHeight(true);
+            var w2 = $div2.outerWidth(true);
+            var b2 = y2 + h2;
+            var r2 = x2 + w2;
+            if (b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2) return false;
+            return true;
+            }
+            })
+

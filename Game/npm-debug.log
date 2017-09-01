@@ -1,0 +1,1744 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'qrcode' ]
+2 info using npm@3.10.8
+3 info using node@v6.8.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData qrcode
+8 silly fetchNamedPackageData qrcode
+9 silly mapToRegistry name qrcode
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'qrcode',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'qrcode',
+12 silly mapToRegistry   name: 'qrcode',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/qrcode
+14 verbose request uri https://registry.npmjs.org/qrcode
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 3:46:14 AM
+17 verbose request id 001e78f3243e5974
+18 http request GET https://registry.npmjs.org/qrcode
+19 http 200 https://registry.npmjs.org/qrcode
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Tue, 03 Jan 2017 07:47:08 GMT',
+20 verbose headers   etag: 'W/"586b56fc-7d78"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '5553',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Fri, 13 Jan 2017 01:46:32 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-fra1238-FRA',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1484271992.609704,VS0,VE116',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Tue, 03 Jan 2017 07:47:08 GMT',
+21 silly get     etag: 'W/"586b56fc-7d78"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '5553',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Fri, 13 Jan 2017 01:46:32 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-fra1238-FRA',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1484271992.609704,VS0,VE116',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving qrcode to /home/amr/.npm/registry.npmjs.org/qrcode/.cache.json
+23 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule qrcode@0.5.0 checking installable status
+37 silly cache add args [ 'qrcode', null ]
+38 verbose cache add spec qrcode
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'qrcode',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'qrcode',
+39 silly cache add   name: 'qrcode',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed qrcode@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for qrcode
+42 info addNameTag [ 'qrcode', 'latest' ]
+43 silly mapToRegistry name qrcode
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'qrcode',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'qrcode',
+46 silly mapToRegistry   name: 'qrcode',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/qrcode
+48 verbose addNameTag registry:https://registry.npmjs.org/qrcode not in flight; fetching
+49 verbose get https://registry.npmjs.org/qrcode not expired, no request
+50 silly addNameTag next cb for qrcode with tag latest
+51 silly addNamed qrcode@0.5.0
+52 verbose addNamed "0.5.0" is a plain semver version for qrcode
+53 silly mapToRegistry name qrcode
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'qrcode',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'qrcode',
+56 silly mapToRegistry   name: 'qrcode',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/qrcode
+58 verbose addRemoteTarball https://registry.npmjs.org/qrcode/-/qrcode-0.5.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/qrcode/-/qrcode-0.5.0.tgz',
+59 verbose addRemoteTarball   '4107c677ae9f7e74f445f29960d35e74cbe90bfe' ]
+60 info retry fetch attempt 1 at 3:46:16 AM
+61 info attempt registry request try #1 at 3:46:16 AM
+62 http fetch GET https://registry.npmjs.org/qrcode/-/qrcode-0.5.0.tgz
+63 http fetch 200 https://registry.npmjs.org/qrcode/-/qrcode-0.5.0.tgz
+64 silly fetchAndShaCheck shasum 4107c677ae9f7e74f445f29960d35e74cbe90bfe
+65 verbose addTmpTarball /tmp/npm-23678-7f43cdad/registry.npmjs.org/qrcode/-/qrcode-0.5.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for qrcode@0.5.0
+67 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd qrcode@0.5.0
+69 verbose afterAdd /home/amr/.npm/qrcode/0.5.0/package/package.json not in flight; writing
+70 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /home/amr/.npm/qrcode/0.5.0/package/package.json written
+72 silly fetchNamedPackageData canvas
+73 silly mapToRegistry name canvas
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'canvas',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'canvas',
+76 silly mapToRegistry   name: 'canvas',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/canvas
+78 silly fetchNamedPackageData colors
+79 silly mapToRegistry name colors
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'colors',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'colors',
+82 silly mapToRegistry   name: 'colors',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/colors
+84 silly fetchNamedPackageData bops
+85 silly mapToRegistry name bops
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'bops',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'bops',
+88 silly mapToRegistry   name: 'bops',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/bops
+90 verbose request uri https://registry.npmjs.org/canvas
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 3:46:20 AM
+93 verbose etag W/"58773a19-1e497"
+94 verbose lastModified Thu, 12 Jan 2017 08:11:05 GMT
+95 http request GET https://registry.npmjs.org/canvas
+96 verbose request uri https://registry.npmjs.org/bops
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 3:46:20 AM
+99 http request GET https://registry.npmjs.org/bops
+100 verbose request uri https://registry.npmjs.org/colors
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 3:46:20 AM
+103 verbose etag W/"586aa80d-5731"
+104 verbose lastModified Mon, 02 Jan 2017 19:20:45 GMT
+105 http request GET https://registry.npmjs.org/colors
+106 http 304 https://registry.npmjs.org/canvas
+107 verbose headers { date: 'Fri, 13 Jan 2017 01:46:36 GMT',
+107 verbose headers   via: '1.1 varnish',
+107 verbose headers   'cache-control': 'max-age=300',
+107 verbose headers   etag: 'W/"58773a19-1e497"',
+107 verbose headers   age: '35',
+107 verbose headers   connection: 'keep-alive',
+107 verbose headers   'x-served-by': 'cache-fra1238-FRA',
+107 verbose headers   'x-cache': 'HIT',
+107 verbose headers   'x-cache-hits': '1',
+107 verbose headers   'x-timer': 'S1484271996.846845,VS0,VE0',
+107 verbose headers   vary: 'Accept-Encoding' }
+108 silly get cb [ 304,
+108 silly get   { date: 'Fri, 13 Jan 2017 01:46:36 GMT',
+108 silly get     via: '1.1 varnish',
+108 silly get     'cache-control': 'max-age=300',
+108 silly get     etag: 'W/"58773a19-1e497"',
+108 silly get     age: '35',
+108 silly get     connection: 'keep-alive',
+108 silly get     'x-served-by': 'cache-fra1238-FRA',
+108 silly get     'x-cache': 'HIT',
+108 silly get     'x-cache-hits': '1',
+108 silly get     'x-timer': 'S1484271996.846845,VS0,VE0',
+108 silly get     vary: 'Accept-Encoding' } ]
+109 verbose etag https://registry.npmjs.org/canvas from cache
+110 verbose get saving canvas to /home/amr/.npm/registry.npmjs.org/canvas/.cache.json
+111 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+112 silly resolveWithNewModule canvas@1.3.16 checking installable status
+113 silly cache add args [ 'canvas@~1.3.4', null ]
+114 verbose cache add spec canvas@~1.3.4
+115 silly cache add parsed spec Result {
+115 silly cache add   raw: 'canvas@~1.3.4',
+115 silly cache add   scope: null,
+115 silly cache add   escapedName: 'canvas',
+115 silly cache add   name: 'canvas',
+115 silly cache add   rawSpec: '~1.3.4',
+115 silly cache add   spec: '>=1.3.4 <1.4.0',
+115 silly cache add   type: 'range' }
+116 silly addNamed canvas@>=1.3.4 <1.4.0
+117 verbose addNamed ">=1.3.4 <1.4.0" is a valid semver range for canvas
+118 silly addNameRange { name: 'canvas', range: '>=1.3.4 <1.4.0', hasData: false }
+119 silly mapToRegistry name canvas
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry data Result {
+122 silly mapToRegistry   raw: 'canvas',
+122 silly mapToRegistry   scope: null,
+122 silly mapToRegistry   escapedName: 'canvas',
+122 silly mapToRegistry   name: 'canvas',
+122 silly mapToRegistry   rawSpec: '',
+122 silly mapToRegistry   spec: 'latest',
+122 silly mapToRegistry   type: 'tag' }
+123 silly mapToRegistry uri https://registry.npmjs.org/canvas
+124 verbose addNameRange registry:https://registry.npmjs.org/canvas not in flight; fetching
+125 verbose get https://registry.npmjs.org/canvas not expired, no request
+126 silly addNameRange number 2 { name: 'canvas', range: '>=1.3.4 <1.4.0', hasData: true }
+127 silly addNameRange versions [ 'canvas',
+127 silly addNameRange   [ '0.0.1',
+127 silly addNameRange     '0.0.2',
+127 silly addNameRange     '0.0.3',
+127 silly addNameRange     '0.0.4',
+127 silly addNameRange     '0.0.5',
+127 silly addNameRange     '0.0.6',
+127 silly addNameRange     '0.0.7',
+127 silly addNameRange     '0.0.8',
+127 silly addNameRange     '0.1.0',
+127 silly addNameRange     '0.2.0',
+127 silly addNameRange     '0.2.1',
+127 silly addNameRange     '0.3.0',
+127 silly addNameRange     '0.3.1',
+127 silly addNameRange     '0.3.2',
+127 silly addNameRange     '0.3.3',
+127 silly addNameRange     '0.4.0',
+127 silly addNameRange     '0.4.1',
+127 silly addNameRange     '0.4.2',
+127 silly addNameRange     '0.4.3',
+127 silly addNameRange     '0.5.0',
+127 silly addNameRange     '0.5.1',
+127 silly addNameRange     '0.5.2',
+127 silly addNameRange     '0.5.3',
+127 silly addNameRange     '0.5.4',
+127 silly addNameRange     '0.6.0',
+127 silly addNameRange     '0.7.0',
+127 silly addNameRange     '0.7.1',
+127 silly addNameRange     '0.7.2',
+127 silly addNameRange     '0.7.3',
+127 silly addNameRange     '0.8.0',
+127 silly addNameRange     '0.8.1',
+127 silly addNameRange     '0.8.2',
+127 silly addNameRange     '0.8.3',
+127 silly addNameRange     '0.9.0',
+127 silly addNameRange     '0.10.0',
+127 silly addNameRange     '0.10.1',
+127 silly addNameRange     '0.10.2',
+127 silly addNameRange     '0.10.3',
+127 silly addNameRange     '0.11.0',
+127 silly addNameRange     '0.11.1',
+127 silly addNameRange     '0.11.2',
+127 silly addNameRange     '0.11.3',
+127 silly addNameRange     '0.12.0',
+127 silly addNameRange     '0.12.1',
+127 silly addNameRange     '0.13.0',
+127 silly addNameRange     '0.13.1',
+127 silly addNameRange     '1.0.0',
+127 silly addNameRange     '1.0.1',
+127 silly addNameRange     '1.0.2',
+127 silly addNameRange     '1.0.3',
+127 silly addNameRange     '1.0.4',
+127 silly addNameRange     '1.1.0',
+127 silly addNameRange     '1.1.1',
+127 silly addNameRange     '1.1.2',
+127 silly addNameRange     '1.1.3',
+127 silly addNameRange     '1.1.4',
+127 silly addNameRange     '1.1.5',
+127 silly addNameRange     '1.1.6',
+127 silly addNameRange     '1.2.0',
+127 silly addNameRange     '1.2.1',
+127 silly addNameRange     '1.2.2',
+127 silly addNameRange     '1.2.3',
+127 silly addNameRange     '1.2.4',
+127 silly addNameRange     '1.2.5',
+127 silly addNameRange     '1.2.6',
+127 silly addNameRange     '1.2.7',
+127 silly addNameRange     '1.2.8',
+127 silly addNameRange     '1.2.9',
+127 silly addNameRange     '1.2.10',
+127 silly addNameRange     '1.2.11',
+127 silly addNameRange     '1.3.0',
+127 silly addNameRange     '1.3.1',
+127 silly addNameRange     '1.3.2',
+127 silly addNameRange     '1.3.3',
+127 silly addNameRange     '1.3.4',
+127 silly addNameRange     '1.3.5',
+127 silly addNameRange     '1.3.6',
+127 silly addNameRange     '1.3.7',
+127 silly addNameRange     '1.3.8',
+127 silly addNameRange     '1.3.9',
+127 silly addNameRange     '1.3.10',
+127 silly addNameRange     '1.3.11',
+127 silly addNameRange     '1.3.12',
+127 silly addNameRange     '1.3.13',
+127 silly addNameRange     '1.3.14',
+127 silly addNameRange     '1.3.15',
+127 silly addNameRange     '1.3.16',
+127 silly addNameRange     '1.4.0',
+127 silly addNameRange     '1.5.0',
+127 silly addNameRange     '1.6.0',
+127 silly addNameRange     '1.6.1',
+127 silly addNameRange     '1.6.2' ] ]
+128 silly addNamed canvas@1.3.16
+129 verbose addNamed "1.3.16" is a plain semver version for canvas
+130 silly mapToRegistry name canvas
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry data Result {
+133 silly mapToRegistry   raw: 'canvas',
+133 silly mapToRegistry   scope: null,
+133 silly mapToRegistry   escapedName: 'canvas',
+133 silly mapToRegistry   name: 'canvas',
+133 silly mapToRegistry   rawSpec: '',
+133 silly mapToRegistry   spec: 'latest',
+133 silly mapToRegistry   type: 'tag' }
+134 silly mapToRegistry uri https://registry.npmjs.org/canvas
+135 verbose addRemoteTarball https://registry.npmjs.org/canvas/-/canvas-1.3.16.tgz not in flight; adding
+136 verbose addRemoteTarball [ 'https://registry.npmjs.org/canvas/-/canvas-1.3.16.tgz',
+136 verbose addRemoteTarball   '7ebde8c54d098fb59b9b598f94c908f6e939147d' ]
+137 info retry fetch attempt 1 at 3:46:20 AM
+138 info attempt registry request try #1 at 3:46:20 AM
+139 http fetch GET https://registry.npmjs.org/canvas/-/canvas-1.3.16.tgz
+140 http fetch 200 https://registry.npmjs.org/canvas/-/canvas-1.3.16.tgz
+141 http 200 https://registry.npmjs.org/colors
+142 verbose headers { server: 'nginx/1.10.1',
+142 verbose headers   'content-type': 'application/json',
+142 verbose headers   'last-modified': 'Thu, 12 Jan 2017 21:28:08 GMT',
+142 verbose headers   etag: 'W/"5877f4e8-5744"',
+142 verbose headers   'content-encoding': 'gzip',
+142 verbose headers   'cache-control': 'max-age=300',
+142 verbose headers   'content-length': '5862',
+142 verbose headers   'accept-ranges': 'bytes',
+142 verbose headers   date: 'Fri, 13 Jan 2017 01:46:37 GMT',
+142 verbose headers   via: '1.1 varnish',
+142 verbose headers   age: '73',
+142 verbose headers   connection: 'keep-alive',
+142 verbose headers   'x-served-by': 'cache-fra1248-FRA',
+142 verbose headers   'x-cache': 'HIT',
+142 verbose headers   'x-cache-hits': '3',
+142 verbose headers   'x-timer': 'S1484271997.154599,VS0,VE0',
+142 verbose headers   vary: 'Accept-Encoding' }
+143 silly get cb [ 200,
+143 silly get   { server: 'nginx/1.10.1',
+143 silly get     'content-type': 'application/json',
+143 silly get     'last-modified': 'Thu, 12 Jan 2017 21:28:08 GMT',
+143 silly get     etag: 'W/"5877f4e8-5744"',
+143 silly get     'content-encoding': 'gzip',
+143 silly get     'cache-control': 'max-age=300',
+143 silly get     'content-length': '5862',
+143 silly get     'accept-ranges': 'bytes',
+143 silly get     date: 'Fri, 13 Jan 2017 01:46:37 GMT',
+143 silly get     via: '1.1 varnish',
+143 silly get     age: '73',
+143 silly get     connection: 'keep-alive',
+143 silly get     'x-served-by': 'cache-fra1248-FRA',
+143 silly get     'x-cache': 'HIT',
+143 silly get     'x-cache-hits': '3',
+143 silly get     'x-timer': 'S1484271997.154599,VS0,VE0',
+143 silly get     vary: 'Accept-Encoding' } ]
+144 verbose get saving colors to /home/amr/.npm/registry.npmjs.org/colors/.cache.json
+145 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+146 http 200 https://registry.npmjs.org/bops
+147 verbose headers { server: 'nginx/1.10.1',
+147 verbose headers   'content-type': 'application/json',
+147 verbose headers   'last-modified': 'Mon, 18 Jan 2016 00:28:47 GMT',
+147 verbose headers   etag: 'W/"569c31bf-45cc"',
+147 verbose headers   'content-encoding': 'gzip',
+147 verbose headers   'cache-control': 'max-age=300',
+147 verbose headers   'content-length': '2626',
+147 verbose headers   'accept-ranges': 'bytes',
+147 verbose headers   date: 'Fri, 13 Jan 2017 01:46:37 GMT',
+147 verbose headers   via: '1.1 varnish',
+147 verbose headers   age: '0',
+147 verbose headers   connection: 'keep-alive',
+147 verbose headers   'x-served-by': 'cache-fra1248-FRA',
+147 verbose headers   'x-cache': 'HIT',
+147 verbose headers   'x-cache-hits': '1',
+147 verbose headers   'x-timer': 'S1484271997.129237,VS0,VE38',
+147 verbose headers   vary: 'Accept-Encoding' }
+148 silly get cb [ 200,
+148 silly get   { server: 'nginx/1.10.1',
+148 silly get     'content-type': 'application/json',
+148 silly get     'last-modified': 'Mon, 18 Jan 2016 00:28:47 GMT',
+148 silly get     etag: 'W/"569c31bf-45cc"',
+148 silly get     'content-encoding': 'gzip',
+148 silly get     'cache-control': 'max-age=300',
+148 silly get     'content-length': '2626',
+148 silly get     'accept-ranges': 'bytes',
+148 silly get     date: 'Fri, 13 Jan 2017 01:46:37 GMT',
+148 silly get     via: '1.1 varnish',
+148 silly get     age: '0',
+148 silly get     connection: 'keep-alive',
+148 silly get     'x-served-by': 'cache-fra1248-FRA',
+148 silly get     'x-cache': 'HIT',
+148 silly get     'x-cache-hits': '1',
+148 silly get     'x-timer': 'S1484271997.129237,VS0,VE38',
+148 silly get     vary: 'Accept-Encoding' } ]
+149 verbose get saving bops to /home/amr/.npm/registry.npmjs.org/bops/.cache.json
+150 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+151 silly resolveWithNewModule bops@0.0.6 checking installable status
+152 silly cache add args [ 'bops@0.0.6', null ]
+153 verbose cache add spec bops@0.0.6
+154 silly cache add parsed spec Result {
+154 silly cache add   raw: 'bops@0.0.6',
+154 silly cache add   scope: null,
+154 silly cache add   escapedName: 'bops',
+154 silly cache add   name: 'bops',
+154 silly cache add   rawSpec: '0.0.6',
+154 silly cache add   spec: '0.0.6',
+154 silly cache add   type: 'version' }
+155 silly addNamed bops@0.0.6
+156 verbose addNamed "0.0.6" is a plain semver version for bops
+157 silly mapToRegistry name bops
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry https://registry.npmjs.org/
+160 silly mapToRegistry data Result {
+160 silly mapToRegistry   raw: 'bops',
+160 silly mapToRegistry   scope: null,
+160 silly mapToRegistry   escapedName: 'bops',
+160 silly mapToRegistry   name: 'bops',
+160 silly mapToRegistry   rawSpec: '',
+160 silly mapToRegistry   spec: 'latest',
+160 silly mapToRegistry   type: 'tag' }
+161 silly mapToRegistry uri https://registry.npmjs.org/bops
+162 verbose addNameVersion registry:https://registry.npmjs.org/bops not in flight; fetching
+163 verbose get https://registry.npmjs.org/bops not expired, no request
+164 silly mapToRegistry name bops
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry data Result {
+167 silly mapToRegistry   raw: 'bops',
+167 silly mapToRegistry   scope: null,
+167 silly mapToRegistry   escapedName: 'bops',
+167 silly mapToRegistry   name: 'bops',
+167 silly mapToRegistry   rawSpec: '',
+167 silly mapToRegistry   spec: 'latest',
+167 silly mapToRegistry   type: 'tag' }
+168 silly mapToRegistry uri https://registry.npmjs.org/bops
+169 verbose addRemoteTarball https://registry.npmjs.org/bops/-/bops-0.0.6.tgz not in flight; adding
+170 verbose addRemoteTarball [ 'https://registry.npmjs.org/bops/-/bops-0.0.6.tgz',
+170 verbose addRemoteTarball   '082d1d55fa01e60dbdc2ebc2dba37f659554cf3a' ]
+171 info retry fetch attempt 1 at 3:46:20 AM
+172 info attempt registry request try #1 at 3:46:20 AM
+173 http fetch GET https://registry.npmjs.org/bops/-/bops-0.0.6.tgz
+174 silly resolveWithNewModule colors@1.1.2 checking installable status
+175 silly cache add args [ 'colors@*', null ]
+176 verbose cache add spec colors@*
+177 silly cache add parsed spec Result {
+177 silly cache add   raw: 'colors@*',
+177 silly cache add   scope: null,
+177 silly cache add   escapedName: 'colors',
+177 silly cache add   name: 'colors',
+177 silly cache add   rawSpec: '*',
+177 silly cache add   spec: '*',
+177 silly cache add   type: 'range' }
+178 silly addNamed colors@*
+179 verbose addNamed "*" is a valid semver range for colors
+180 silly addNameRange { name: 'colors', range: '*', hasData: false }
+181 silly mapToRegistry name colors
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry data Result {
+184 silly mapToRegistry   raw: 'colors',
+184 silly mapToRegistry   scope: null,
+184 silly mapToRegistry   escapedName: 'colors',
+184 silly mapToRegistry   name: 'colors',
+184 silly mapToRegistry   rawSpec: '',
+184 silly mapToRegistry   spec: 'latest',
+184 silly mapToRegistry   type: 'tag' }
+185 silly mapToRegistry uri https://registry.npmjs.org/colors
+186 verbose addNameRange registry:https://registry.npmjs.org/colors not in flight; fetching
+187 verbose get https://registry.npmjs.org/colors not expired, no request
+188 silly addNameRange number 2 { name: 'colors', range: '*', hasData: true }
+189 silly addNameRange versions [ 'colors',
+189 silly addNameRange   [ '0.3.0',
+189 silly addNameRange     '0.5.0',
+189 silly addNameRange     '0.5.1',
+189 silly addNameRange     '0.6.0',
+189 silly addNameRange     '0.6.0-1',
+189 silly addNameRange     '0.6.1',
+189 silly addNameRange     '0.6.2',
+189 silly addNameRange     '1.0.0',
+189 silly addNameRange     '1.0.1',
+189 silly addNameRange     '1.0.2',
+189 silly addNameRange     '1.0.3',
+189 silly addNameRange     '1.1.0',
+189 silly addNameRange     '1.1.1',
+189 silly addNameRange     '1.1.2' ] ]
+190 silly addNamed colors@1.1.2
+191 verbose addNamed "1.1.2" is a plain semver version for colors
+192 silly cache afterAdd colors@1.1.2
+193 verbose afterAdd /home/amr/.npm/colors/1.1.2/package/package.json not in flight; writing
+194 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+195 verbose afterAdd /home/amr/.npm/colors/1.1.2/package/package.json written
+196 http fetch 200 https://registry.npmjs.org/bops/-/bops-0.0.6.tgz
+197 silly fetchAndShaCheck shasum 7ebde8c54d098fb59b9b598f94c908f6e939147d
+198 verbose addTmpTarball /tmp/npm-23678-7f43cdad/registry.npmjs.org/canvas/-/canvas-1.3.16.tgz not in flight; adding
+199 verbose addTmpTarball already have metadata; skipping unpack for canvas@1.3.16
+200 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+201 silly fetchAndShaCheck shasum 082d1d55fa01e60dbdc2ebc2dba37f659554cf3a
+202 verbose addTmpTarball /tmp/npm-23678-7f43cdad/registry.npmjs.org/bops/-/bops-0.0.6.tgz not in flight; adding
+203 verbose addTmpTarball already have metadata; skipping unpack for bops@0.0.6
+204 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+205 silly cache afterAdd canvas@1.3.16
+206 verbose afterAdd /home/amr/.npm/canvas/1.3.16/package/package.json not in flight; writing
+207 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+208 verbose afterAdd /home/amr/.npm/canvas/1.3.16/package/package.json written
+209 silly cache afterAdd bops@0.0.6
+210 verbose afterAdd /home/amr/.npm/bops/0.0.6/package/package.json not in flight; writing
+211 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+212 verbose afterAdd /home/amr/.npm/bops/0.0.6/package/package.json written
+213 silly fetchNamedPackageData base64-js
+214 silly mapToRegistry name base64-js
+215 silly mapToRegistry using default registry
+216 silly mapToRegistry registry https://registry.npmjs.org/
+217 silly mapToRegistry data Result {
+217 silly mapToRegistry   raw: 'base64-js',
+217 silly mapToRegistry   scope: null,
+217 silly mapToRegistry   escapedName: 'base64-js',
+217 silly mapToRegistry   name: 'base64-js',
+217 silly mapToRegistry   rawSpec: '',
+217 silly mapToRegistry   spec: 'latest',
+217 silly mapToRegistry   type: 'tag' }
+218 silly mapToRegistry uri https://registry.npmjs.org/base64-js
+219 silly fetchNamedPackageData to-utf8
+220 silly mapToRegistry name to-utf8
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry https://registry.npmjs.org/
+223 silly mapToRegistry data Result {
+223 silly mapToRegistry   raw: 'to-utf8',
+223 silly mapToRegistry   scope: null,
+223 silly mapToRegistry   escapedName: 'to-utf8',
+223 silly mapToRegistry   name: 'to-utf8',
+223 silly mapToRegistry   rawSpec: '',
+223 silly mapToRegistry   spec: 'latest',
+223 silly mapToRegistry   type: 'tag' }
+224 silly mapToRegistry uri https://registry.npmjs.org/to-utf8
+225 verbose request uri https://registry.npmjs.org/to-utf8
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 3:46:20 AM
+228 http request GET https://registry.npmjs.org/to-utf8
+229 verbose request uri https://registry.npmjs.org/base64-js
+230 verbose request no auth needed
+231 info attempt registry request try #1 at 3:46:21 AM
+232 verbose etag "8BL2VZDY53FJALSB3MX4KCC"
+233 http request GET https://registry.npmjs.org/base64-js
+234 http 200 https://registry.npmjs.org/to-utf8
+235 verbose headers { server: 'nginx/1.10.1',
+235 verbose headers   'content-type': 'application/json',
+235 verbose headers   'last-modified': 'Wed, 30 Apr 2014 03:14:48 GMT',
+235 verbose headers   etag: 'W/"53606aa8-c6c"',
+235 verbose headers   'content-encoding': 'gzip',
+235 verbose headers   'cache-control': 'max-age=300',
+235 verbose headers   'content-length': '1084',
+235 verbose headers   'accept-ranges': 'bytes',
+235 verbose headers   date: 'Fri, 13 Jan 2017 01:46:37 GMT',
+235 verbose headers   via: '1.1 varnish',
+235 verbose headers   age: '0',
+235 verbose headers   connection: 'keep-alive',
+235 verbose headers   'x-served-by': 'cache-fra1248-FRA',
+235 verbose headers   'x-cache': 'HIT',
+235 verbose headers   'x-cache-hits': '1',
+235 verbose headers   'x-timer': 'S1484271997.603813,VS0,VE42',
+235 verbose headers   vary: 'Accept-Encoding' }
+236 silly get cb [ 200,
+236 silly get   { server: 'nginx/1.10.1',
+236 silly get     'content-type': 'application/json',
+236 silly get     'last-modified': 'Wed, 30 Apr 2014 03:14:48 GMT',
+236 silly get     etag: 'W/"53606aa8-c6c"',
+236 silly get     'content-encoding': 'gzip',
+236 silly get     'cache-control': 'max-age=300',
+236 silly get     'content-length': '1084',
+236 silly get     'accept-ranges': 'bytes',
+236 silly get     date: 'Fri, 13 Jan 2017 01:46:37 GMT',
+236 silly get     via: '1.1 varnish',
+236 silly get     age: '0',
+236 silly get     connection: 'keep-alive',
+236 silly get     'x-served-by': 'cache-fra1248-FRA',
+236 silly get     'x-cache': 'HIT',
+236 silly get     'x-cache-hits': '1',
+236 silly get     'x-timer': 'S1484271997.603813,VS0,VE42',
+236 silly get     vary: 'Accept-Encoding' } ]
+237 verbose get saving to-utf8 to /home/amr/.npm/registry.npmjs.org/to-utf8/.cache.json
+238 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+239 http 200 https://registry.npmjs.org/base64-js
+240 verbose headers { server: 'nginx/1.10.1',
+240 verbose headers   'content-type': 'application/json',
+240 verbose headers   'last-modified': 'Mon, 12 Dec 2016 12:52:10 GMT',
+240 verbose headers   etag: 'W/"584e9d7a-4f76"',
+240 verbose headers   'content-encoding': 'gzip',
+240 verbose headers   'cache-control': 'max-age=300',
+240 verbose headers   'content-length': '3073',
+240 verbose headers   'accept-ranges': 'bytes',
+240 verbose headers   date: 'Fri, 13 Jan 2017 01:46:37 GMT',
+240 verbose headers   via: '1.1 varnish',
+240 verbose headers   age: '283',
+240 verbose headers   connection: 'keep-alive',
+240 verbose headers   'x-served-by': 'cache-fra1238-FRA',
+240 verbose headers   'x-cache': 'HIT',
+240 verbose headers   'x-cache-hits': '4',
+240 verbose headers   'x-timer': 'S1484271997.645444,VS0,VE0',
+240 verbose headers   vary: 'Accept-Encoding' }
+241 silly get cb [ 200,
+241 silly get   { server: 'nginx/1.10.1',
+241 silly get     'content-type': 'application/json',
+241 silly get     'last-modified': 'Mon, 12 Dec 2016 12:52:10 GMT',
+241 silly get     etag: 'W/"584e9d7a-4f76"',
+241 silly get     'content-encoding': 'gzip',
+241 silly get     'cache-control': 'max-age=300',
+241 silly get     'content-length': '3073',
+241 silly get     'accept-ranges': 'bytes',
+241 silly get     date: 'Fri, 13 Jan 2017 01:46:37 GMT',
+241 silly get     via: '1.1 varnish',
+241 silly get     age: '283',
+241 silly get     connection: 'keep-alive',
+241 silly get     'x-served-by': 'cache-fra1238-FRA',
+241 silly get     'x-cache': 'HIT',
+241 silly get     'x-cache-hits': '4',
+241 silly get     'x-timer': 'S1484271997.645444,VS0,VE0',
+241 silly get     vary: 'Accept-Encoding' } ]
+242 verbose get saving base64-js to /home/amr/.npm/registry.npmjs.org/base64-js/.cache.json
+243 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+244 silly resolveWithNewModule to-utf8@0.0.1 checking installable status
+245 silly cache add args [ 'to-utf8@0.0.1', null ]
+246 verbose cache add spec to-utf8@0.0.1
+247 silly cache add parsed spec Result {
+247 silly cache add   raw: 'to-utf8@0.0.1',
+247 silly cache add   scope: null,
+247 silly cache add   escapedName: 'to-utf8',
+247 silly cache add   name: 'to-utf8',
+247 silly cache add   rawSpec: '0.0.1',
+247 silly cache add   spec: '0.0.1',
+247 silly cache add   type: 'version' }
+248 silly addNamed to-utf8@0.0.1
+249 verbose addNamed "0.0.1" is a plain semver version for to-utf8
+250 silly mapToRegistry name to-utf8
+251 silly mapToRegistry using default registry
+252 silly mapToRegistry registry https://registry.npmjs.org/
+253 silly mapToRegistry data Result {
+253 silly mapToRegistry   raw: 'to-utf8',
+253 silly mapToRegistry   scope: null,
+253 silly mapToRegistry   escapedName: 'to-utf8',
+253 silly mapToRegistry   name: 'to-utf8',
+253 silly mapToRegistry   rawSpec: '',
+253 silly mapToRegistry   spec: 'latest',
+253 silly mapToRegistry   type: 'tag' }
+254 silly mapToRegistry uri https://registry.npmjs.org/to-utf8
+255 verbose addNameVersion registry:https://registry.npmjs.org/to-utf8 not in flight; fetching
+256 verbose get https://registry.npmjs.org/to-utf8 not expired, no request
+257 silly mapToRegistry name to-utf8
+258 silly mapToRegistry using default registry
+259 silly mapToRegistry registry https://registry.npmjs.org/
+260 silly mapToRegistry data Result {
+260 silly mapToRegistry   raw: 'to-utf8',
+260 silly mapToRegistry   scope: null,
+260 silly mapToRegistry   escapedName: 'to-utf8',
+260 silly mapToRegistry   name: 'to-utf8',
+260 silly mapToRegistry   rawSpec: '',
+260 silly mapToRegistry   spec: 'latest',
+260 silly mapToRegistry   type: 'tag' }
+261 silly mapToRegistry uri https://registry.npmjs.org/to-utf8
+262 verbose addRemoteTarball https://registry.npmjs.org/to-utf8/-/to-utf8-0.0.1.tgz not in flight; adding
+263 verbose addRemoteTarball [ 'https://registry.npmjs.org/to-utf8/-/to-utf8-0.0.1.tgz',
+263 verbose addRemoteTarball   'd17aea72ff2fba39b9e43601be7b3ff72e089852' ]
+264 info retry fetch attempt 1 at 3:46:21 AM
+265 info attempt registry request try #1 at 3:46:21 AM
+266 http fetch GET https://registry.npmjs.org/to-utf8/-/to-utf8-0.0.1.tgz
+267 silly resolveWithNewModule base64-js@0.0.2 checking installable status
+268 silly cache add args [ 'base64-js@0.0.2', null ]
+269 verbose cache add spec base64-js@0.0.2
+270 silly cache add parsed spec Result {
+270 silly cache add   raw: 'base64-js@0.0.2',
+270 silly cache add   scope: null,
+270 silly cache add   escapedName: 'base64-js',
+270 silly cache add   name: 'base64-js',
+270 silly cache add   rawSpec: '0.0.2',
+270 silly cache add   spec: '0.0.2',
+270 silly cache add   type: 'version' }
+271 silly addNamed base64-js@0.0.2
+272 verbose addNamed "0.0.2" is a plain semver version for base64-js
+273 silly mapToRegistry name base64-js
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry data Result {
+276 silly mapToRegistry   raw: 'base64-js',
+276 silly mapToRegistry   scope: null,
+276 silly mapToRegistry   escapedName: 'base64-js',
+276 silly mapToRegistry   name: 'base64-js',
+276 silly mapToRegistry   rawSpec: '',
+276 silly mapToRegistry   spec: 'latest',
+276 silly mapToRegistry   type: 'tag' }
+277 silly mapToRegistry uri https://registry.npmjs.org/base64-js
+278 verbose addNameVersion registry:https://registry.npmjs.org/base64-js not in flight; fetching
+279 verbose get https://registry.npmjs.org/base64-js not expired, no request
+280 silly mapToRegistry name base64-js
+281 silly mapToRegistry using default registry
+282 silly mapToRegistry registry https://registry.npmjs.org/
+283 silly mapToRegistry data Result {
+283 silly mapToRegistry   raw: 'base64-js',
+283 silly mapToRegistry   scope: null,
+283 silly mapToRegistry   escapedName: 'base64-js',
+283 silly mapToRegistry   name: 'base64-js',
+283 silly mapToRegistry   rawSpec: '',
+283 silly mapToRegistry   spec: 'latest',
+283 silly mapToRegistry   type: 'tag' }
+284 silly mapToRegistry uri https://registry.npmjs.org/base64-js
+285 verbose addRemoteTarball https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz not in flight; adding
+286 verbose addRemoteTarball [ 'https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz',
+286 verbose addRemoteTarball   '024f0f72afa25b75f9c0ee73cd4f55ec1bed9784' ]
+287 info retry fetch attempt 1 at 3:46:21 AM
+288 info attempt registry request try #1 at 3:46:21 AM
+289 http fetch GET https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz
+290 http fetch 200 https://registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz
+291 silly fetchAndShaCheck shasum 024f0f72afa25b75f9c0ee73cd4f55ec1bed9784
+292 verbose addTmpTarball /tmp/npm-23678-7f43cdad/registry.npmjs.org/base64-js/-/base64-js-0.0.2.tgz not in flight; adding
+293 verbose addTmpTarball already have metadata; skipping unpack for base64-js@0.0.2
+294 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+295 http fetch 200 https://registry.npmjs.org/to-utf8/-/to-utf8-0.0.1.tgz
+296 silly fetchAndShaCheck shasum d17aea72ff2fba39b9e43601be7b3ff72e089852
+297 verbose addTmpTarball /tmp/npm-23678-7f43cdad/registry.npmjs.org/to-utf8/-/to-utf8-0.0.1.tgz not in flight; adding
+298 verbose addTmpTarball already have metadata; skipping unpack for to-utf8@0.0.1
+299 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+300 silly cache afterAdd to-utf8@0.0.1
+301 verbose afterAdd /home/amr/.npm/to-utf8/0.0.1/package/package.json not in flight; writing
+302 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+303 verbose afterAdd /home/amr/.npm/to-utf8/0.0.1/package/package.json written
+304 silly cache afterAdd base64-js@0.0.2
+305 verbose afterAdd /home/amr/.npm/base64-js/0.0.2/package/package.json not in flight; writing
+306 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+307 verbose afterAdd /home/amr/.npm/base64-js/0.0.2/package/package.json written
+308 silly fetchNamedPackageData nan
+309 silly mapToRegistry name nan
+310 silly mapToRegistry using default registry
+311 silly mapToRegistry registry https://registry.npmjs.org/
+312 silly mapToRegistry data Result {
+312 silly mapToRegistry   raw: 'nan',
+312 silly mapToRegistry   scope: null,
+312 silly mapToRegistry   escapedName: 'nan',
+312 silly mapToRegistry   name: 'nan',
+312 silly mapToRegistry   rawSpec: '',
+312 silly mapToRegistry   spec: 'latest',
+312 silly mapToRegistry   type: 'tag' }
+313 silly mapToRegistry uri https://registry.npmjs.org/nan
+314 verbose request uri https://registry.npmjs.org/nan
+315 verbose request no auth needed
+316 info attempt registry request try #1 at 3:46:21 AM
+317 verbose etag W/"585acecf-1d7db"
+318 verbose lastModified Wed, 21 Dec 2016 18:49:51 GMT
+319 http request GET https://registry.npmjs.org/nan
+320 http 304 https://registry.npmjs.org/nan
+321 verbose headers { date: 'Fri, 13 Jan 2017 01:46:38 GMT',
+321 verbose headers   via: '1.1 varnish',
+321 verbose headers   'cache-control': 'max-age=300',
+321 verbose headers   etag: 'W/"585acecf-1d7db"',
+321 verbose headers   age: '68',
+321 verbose headers   connection: 'keep-alive',
+321 verbose headers   'x-served-by': 'cache-fra1248-FRA',
+321 verbose headers   'x-cache': 'HIT',
+321 verbose headers   'x-cache-hits': '1',
+321 verbose headers   'x-timer': 'S1484271998.188629,VS0,VE0',
+321 verbose headers   vary: 'Accept-Encoding' }
+322 silly get cb [ 304,
+322 silly get   { date: 'Fri, 13 Jan 2017 01:46:38 GMT',
+322 silly get     via: '1.1 varnish',
+322 silly get     'cache-control': 'max-age=300',
+322 silly get     etag: 'W/"585acecf-1d7db"',
+322 silly get     age: '68',
+322 silly get     connection: 'keep-alive',
+322 silly get     'x-served-by': 'cache-fra1248-FRA',
+322 silly get     'x-cache': 'HIT',
+322 silly get     'x-cache-hits': '1',
+322 silly get     'x-timer': 'S1484271998.188629,VS0,VE0',
+322 silly get     vary: 'Accept-Encoding' } ]
+323 verbose etag https://registry.npmjs.org/nan from cache
+324 verbose get saving nan to /home/amr/.npm/registry.npmjs.org/nan/.cache.json
+325 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+326 silly resolveWithNewModule nan@2.5.0 checking installable status
+327 silly cache add args [ 'nan@^2.3.2', null ]
+328 verbose cache add spec nan@^2.3.2
+329 silly cache add parsed spec Result {
+329 silly cache add   raw: 'nan@^2.3.2',
+329 silly cache add   scope: null,
+329 silly cache add   escapedName: 'nan',
+329 silly cache add   name: 'nan',
+329 silly cache add   rawSpec: '^2.3.2',
+329 silly cache add   spec: '>=2.3.2 <3.0.0',
+329 silly cache add   type: 'range' }
+330 silly addNamed nan@>=2.3.2 <3.0.0
+331 verbose addNamed ">=2.3.2 <3.0.0" is a valid semver range for nan
+332 silly addNameRange { name: 'nan', range: '>=2.3.2 <3.0.0', hasData: false }
+333 silly mapToRegistry name nan
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npmjs.org/
+336 silly mapToRegistry data Result {
+336 silly mapToRegistry   raw: 'nan',
+336 silly mapToRegistry   scope: null,
+336 silly mapToRegistry   escapedName: 'nan',
+336 silly mapToRegistry   name: 'nan',
+336 silly mapToRegistry   rawSpec: '',
+336 silly mapToRegistry   spec: 'latest',
+336 silly mapToRegistry   type: 'tag' }
+337 silly mapToRegistry uri https://registry.npmjs.org/nan
+338 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+339 verbose get https://registry.npmjs.org/nan not expired, no request
+340 silly addNameRange number 2 { name: 'nan', range: '>=2.3.2 <3.0.0', hasData: true }
+341 silly addNameRange versions [ 'nan',
+341 silly addNameRange   [ '0.3.0-wip',
+341 silly addNameRange     '0.3.0-wip2',
+341 silly addNameRange     '0.3.0',
+341 silly addNameRange     '0.3.1',
+341 silly addNameRange     '0.3.2',
+341 silly addNameRange     '0.4.0',
+341 silly addNameRange     '0.4.1',
+341 silly addNameRange     '0.4.2',
+341 silly addNameRange     '0.4.3',
+341 silly addNameRange     '0.4.4',
+341 silly addNameRange     '0.5.0',
+341 silly addNameRange     '0.5.1',
+341 silly addNameRange     '0.5.2',
+341 silly addNameRange     '0.6.0',
+341 silly addNameRange     '0.7.0',
+341 silly addNameRange     '0.7.1',
+341 silly addNameRange     '0.8.0',
+341 silly addNameRange     '1.0.0',
+341 silly addNameRange     '1.1.0',
+341 silly addNameRange     '1.1.1',
+341 silly addNameRange     '1.1.2',
+341 silly addNameRange     '1.2.0',
+341 silly addNameRange     '1.3.0',
+341 silly addNameRange     '1.4.0',
+341 silly addNameRange     '1.4.1',
+341 silly addNameRange     '1.5.0',
+341 silly addNameRange     '1.4.2',
+341 silly addNameRange     '1.4.3',
+341 silly addNameRange     '1.5.1',
+341 silly addNameRange     '1.5.2',
+341 silly addNameRange     '1.6.0',
+341 silly addNameRange     '1.5.3',
+341 silly addNameRange     '1.6.1',
+341 silly addNameRange     '1.6.2',
+341 silly addNameRange     '1.7.0',
+341 silly addNameRange     '1.8.0',
+341 silly addNameRange     '1.8.1',
+341 silly addNameRange     '1.8.2',
+341 silly addNameRange     '1.8.3',
+341 silly addNameRange     '1.8.4',
+341 silly addNameRange     '1.9.0',
+341 silly addNameRange     '2.0.0',
+341 silly addNameRange     '2.0.1',
+341 silly addNameRange     '2.0.2',
+341 silly addNameRange     '2.0.3',
+341 silly addNameRange     '2.0.4',
+341 silly addNameRange     '2.0.5',
+341 silly addNameRange     '2.0.6',
+341 silly addNameRange     '2.0.7',
+341 silly addNameRange     '2.0.8',
+341 silly addNameRange     '2.0.9',
+341 silly addNameRange     '2.1.0',
+341 silly addNameRange     '2.2.0',
+341 silly addNameRange     '2.2.1',
+341 silly addNameRange     '2.3.0',
+341 silly addNameRange     '2.3.1',
+341 silly addNameRange     '2.3.2',
+341 silly addNameRange     '2.3.3',
+341 silly addNameRange     '2.3.4',
+341 silly addNameRange     '2.3.5',
+341 silly addNameRange     '2.4.0',
+341 silly addNameRange     '2.5.0' ] ]
+342 silly addNamed nan@2.5.0
+343 verbose addNamed "2.5.0" is a plain semver version for nan
+344 silly cache afterAdd nan@2.5.0
+345 verbose afterAdd /home/amr/.npm/nan/2.5.0/package/package.json not in flight; writing
+346 verbose correctMkdir /home/amr/.npm correctMkdir not in flight; initializing
+347 verbose afterAdd /home/amr/.npm/nan/2.5.0/package/package.json written
+348 silly loadAllDepsIntoIdealTree Finishing
+349 silly loadIdealTree Finishing
+350 silly currentTree ball@1.0.0
+350 silly currentTree ├── accepts@1.3.3
+350 silly currentTree ├── acorn-globals@1.0.9
+350 silly currentTree ├── acorn@2.7.0
+350 silly currentTree ├── after@0.8.1
+350 silly currentTree ├── align-text@0.1.4
+350 silly currentTree ├── amdefine@1.0.0
+350 silly currentTree ├── array-flatten@1.1.1
+350 silly currentTree ├── arraybuffer.slice@0.0.6
+350 silly currentTree ├── asap@1.0.0
+350 silly currentTree ├── async@0.2.10
+350 silly currentTree ├── backo2@1.0.2
+350 silly currentTree ├── base64-arraybuffer@0.1.2
+350 silly currentTree ├── base64id@0.1.0
+350 silly currentTree ├── benchmark@1.0.0
+350 silly currentTree ├── better-assert@1.0.2
+350 silly currentTree ├── blob@0.0.4
+350 silly currentTree ├── callsite@1.0.0
+350 silly currentTree ├── camelcase@1.2.1
+350 silly currentTree ├── center-align@0.1.3
+350 silly currentTree ├── character-parser@1.2.1
+350 silly currentTree ├─┬ clean-css@3.4.19
+350 silly currentTree │ └── commander@2.8.1
+350 silly currentTree ├─┬ cliui@2.1.0
+350 silly currentTree │ └── wordwrap@0.0.2
+350 silly currentTree ├── commander@2.6.0
+350 silly currentTree ├── component-bind@1.0.0
+350 silly currentTree ├── component-emitter@1.1.2
+350 silly currentTree ├── component-inherit@0.0.3
+350 silly currentTree ├── constantinople@3.0.2
+350 silly currentTree ├── content-disposition@0.5.1
+350 silly currentTree ├── content-type@1.0.2
+350 silly currentTree ├── cookie-signature@1.0.6
+350 silly currentTree ├── cookie@0.3.1
+350 silly currentTree ├── css-parse@1.0.4
+350 silly currentTree ├── css-stringify@1.0.5
+350 silly currentTree ├── css@1.0.8
+350 silly currentTree ├── debug@2.2.0
+350 silly currentTree ├── decamelize@1.2.0
+350 silly currentTree ├── depd@1.1.0
+350 silly currentTree ├── destroy@1.0.4
+350 silly currentTree ├── ee-first@1.1.1
+350 silly currentTree ├── encodeurl@1.0.1
+350 silly currentTree ├─┬ engine.io-client@1.6.11
+350 silly currentTree │ └── ws@1.0.1
+350 silly currentTree ├─┬ engine.io-parser@1.2.4
+350 silly currentTree │ └── has-binary@0.1.6
+350 silly currentTree ├─┬ engine.io@1.6.11
+350 silly currentTree │ ├── accepts@1.1.4
+350 silly currentTree │ ├── mime-db@1.12.0
+350 silly currentTree │ ├── mime-types@2.0.14
+350 silly currentTree │ └── negotiator@0.4.9
+350 silly currentTree ├── escape-html@1.0.3
+350 silly currentTree ├── etag@1.7.0
+350 silly currentTree ├── express@4.14.0
+350 silly currentTree ├── finalhandler@0.5.0
+350 silly currentTree ├── forwarded@0.1.0
+350 silly currentTree ├── fresh@0.3.0
+350 silly currentTree ├── graceful-readlink@1.0.1
+350 silly currentTree ├── has-binary@0.1.7
+350 silly currentTree ├── has-cors@1.1.0
+350 silly currentTree ├── http-errors@1.5.0
+350 silly currentTree ├── indexof@0.0.1
+350 silly currentTree ├── inherits@2.0.1
+350 silly currentTree ├── ipaddr.js@1.1.1
+350 silly currentTree ├── is-buffer@1.1.3
+350 silly currentTree ├── is-promise@2.1.0
+350 silly currentTree ├── isarray@0.0.1
+350 silly currentTree ├── jade@1.11.0
+350 silly currentTree ├── json3@3.2.6
+350 silly currentTree ├── jstransformer@0.0.2
+350 silly currentTree ├── kind-of@3.0.4
+350 silly currentTree ├── lazy-cache@1.0.4
+350 silly currentTree ├── longest@1.0.1
+350 silly currentTree ├── media-typer@0.3.0
+350 silly currentTree ├── merge-descriptors@1.0.1
+350 silly currentTree ├── methods@1.1.2
+350 silly currentTree ├── mime-db@1.23.0
+350 silly currentTree ├── mime-types@2.1.11
+350 silly currentTree ├── mime@1.3.4
+350 silly currentTree ├── minimist@0.0.8
+350 silly currentTree ├── mkdirp@0.5.1
+350 silly currentTree ├── ms@0.7.1
+350 silly currentTree ├── negotiator@0.6.1
+350 silly currentTree ├── object-component@0.0.3
+350 silly currentTree ├── on-finished@2.3.0
+350 silly currentTree ├── optimist@0.3.7
+350 silly currentTree ├── options@0.0.6
+350 silly currentTree ├── parsejson@0.0.1
+350 silly currentTree ├── parseqs@0.0.2
+350 silly currentTree ├── parseuri@0.0.4
+350 silly currentTree ├── parseurl@1.3.1
+350 silly currentTree ├── path-to-regexp@0.1.7
+350 silly currentTree ├── promise@6.1.0
+350 silly currentTree ├── proxy-addr@1.1.2
+350 silly currentTree ├── qs@6.2.0
+350 silly currentTree ├── range-parser@1.2.0
+350 silly currentTree ├── repeat-string@1.5.4
+350 silly currentTree ├── right-align@0.1.3
+350 silly currentTree ├── send@0.14.1
+350 silly currentTree ├── serve-static@1.11.1
+350 silly currentTree ├── setprototypeof@1.0.1
+350 silly currentTree ├─┬ socket.io-adapter@0.4.0
+350 silly currentTree │ └─┬ socket.io-parser@2.2.2
+350 silly currentTree │   └── debug@0.7.4
+350 silly currentTree ├─┬ socket.io-client@1.4.8
+350 silly currentTree │ └── component-emitter@1.2.0
+350 silly currentTree ├─┬ socket.io-parser@2.2.6
+350 silly currentTree │ └── json3@3.3.2
+350 silly currentTree ├── socket.io@1.4.8
+350 silly currentTree ├── source-map@0.4.4
+350 silly currentTree ├── statuses@1.3.0
+350 silly currentTree ├── to-array@0.1.4
+350 silly currentTree ├─┬ transformers@2.1.0
+350 silly currentTree │ ├── is-promise@1.0.1
+350 silly currentTree │ ├── promise@2.0.0
+350 silly currentTree │ ├── source-map@0.1.43
+350 silly currentTree │ └── uglify-js@2.2.5
+350 silly currentTree ├── type-is@1.6.13
+350 silly currentTree ├─┬ uglify-js@2.7.0
+350 silly currentTree │ └── source-map@0.5.6
+350 silly currentTree ├── uglify-to-browserify@1.0.2
+350 silly currentTree ├── ultron@1.0.2
+350 silly currentTree ├── unpipe@1.0.0
+350 silly currentTree ├── utf8@2.1.0
+350 silly currentTree ├── utils-merge@1.0.0
+350 silly currentTree ├── vary@1.1.0
+350 silly currentTree ├── void-elements@2.0.1
+350 silly currentTree ├── window-size@0.1.0
+350 silly currentTree ├─┬ with@4.0.3
+350 silly currentTree │ └── acorn@1.2.2
+350 silly currentTree ├── wordwrap@0.0.3
+350 silly currentTree ├── ws@1.1.0
+350 silly currentTree ├── xmlhttprequest-ssl@1.5.1
+350 silly currentTree ├── yargs@3.10.0
+350 silly currentTree └── yeast@0.1.2
+351 silly idealTree ball@1.0.0
+351 silly idealTree ├── accepts@1.3.3
+351 silly idealTree ├── acorn-globals@1.0.9
+351 silly idealTree ├── acorn@2.7.0
+351 silly idealTree ├── after@0.8.1
+351 silly idealTree ├── align-text@0.1.4
+351 silly idealTree ├── amdefine@1.0.0
+351 silly idealTree ├── array-flatten@1.1.1
+351 silly idealTree ├── arraybuffer.slice@0.0.6
+351 silly idealTree ├── asap@1.0.0
+351 silly idealTree ├── async@0.2.10
+351 silly idealTree ├── backo2@1.0.2
+351 silly idealTree ├── base64-arraybuffer@0.1.2
+351 silly idealTree ├── base64-js@0.0.2
+351 silly idealTree ├── base64id@0.1.0
+351 silly idealTree ├── benchmark@1.0.0
+351 silly idealTree ├── better-assert@1.0.2
+351 silly idealTree ├── blob@0.0.4
+351 silly idealTree ├── bops@0.0.6
+351 silly idealTree ├── callsite@1.0.0
+351 silly idealTree ├── camelcase@1.2.1
+351 silly idealTree ├── canvas@1.3.16
+351 silly idealTree ├── center-align@0.1.3
+351 silly idealTree ├── character-parser@1.2.1
+351 silly idealTree ├─┬ clean-css@3.4.19
+351 silly idealTree │ └── commander@2.8.1
+351 silly idealTree ├─┬ cliui@2.1.0
+351 silly idealTree │ └── wordwrap@0.0.2
+351 silly idealTree ├── colors@1.1.2
+351 silly idealTree ├── commander@2.6.0
+351 silly idealTree ├── component-bind@1.0.0
+351 silly idealTree ├── component-emitter@1.1.2
+351 silly idealTree ├── component-inherit@0.0.3
+351 silly idealTree ├── constantinople@3.0.2
+351 silly idealTree ├── content-disposition@0.5.1
+351 silly idealTree ├── content-type@1.0.2
+351 silly idealTree ├── cookie-signature@1.0.6
+351 silly idealTree ├── cookie@0.3.1
+351 silly idealTree ├── css-parse@1.0.4
+351 silly idealTree ├── css-stringify@1.0.5
+351 silly idealTree ├── css@1.0.8
+351 silly idealTree ├── debug@2.2.0
+351 silly idealTree ├── decamelize@1.2.0
+351 silly idealTree ├── depd@1.1.0
+351 silly idealTree ├── destroy@1.0.4
+351 silly idealTree ├── ee-first@1.1.1
+351 silly idealTree ├── encodeurl@1.0.1
+351 silly idealTree ├─┬ engine.io-client@1.6.11
+351 silly idealTree │ └── ws@1.0.1
+351 silly idealTree ├─┬ engine.io-parser@1.2.4
+351 silly idealTree │ └── has-binary@0.1.6
+351 silly idealTree ├─┬ engine.io@1.6.11
+351 silly idealTree │ ├── accepts@1.1.4
+351 silly idealTree │ ├── mime-db@1.12.0
+351 silly idealTree │ ├── mime-types@2.0.14
+351 silly idealTree │ └── negotiator@0.4.9
+351 silly idealTree ├── escape-html@1.0.3
+351 silly idealTree ├── etag@1.7.0
+351 silly idealTree ├── express@4.14.0
+351 silly idealTree ├── finalhandler@0.5.0
+351 silly idealTree ├── forwarded@0.1.0
+351 silly idealTree ├── fresh@0.3.0
+351 silly idealTree ├── graceful-readlink@1.0.1
+351 silly idealTree ├── has-binary@0.1.7
+351 silly idealTree ├── has-cors@1.1.0
+351 silly idealTree ├── http-errors@1.5.0
+351 silly idealTree ├── indexof@0.0.1
+351 silly idealTree ├── inherits@2.0.1
+351 silly idealTree ├── ipaddr.js@1.1.1
+351 silly idealTree ├── is-buffer@1.1.3
+351 silly idealTree ├── is-promise@2.1.0
+351 silly idealTree ├── isarray@0.0.1
+351 silly idealTree ├── jade@1.11.0
+351 silly idealTree ├── json3@3.2.6
+351 silly idealTree ├── jstransformer@0.0.2
+351 silly idealTree ├── kind-of@3.0.4
+351 silly idealTree ├── lazy-cache@1.0.4
+351 silly idealTree ├── longest@1.0.1
+351 silly idealTree ├── media-typer@0.3.0
+351 silly idealTree ├── merge-descriptors@1.0.1
+351 silly idealTree ├── methods@1.1.2
+351 silly idealTree ├── mime-db@1.23.0
+351 silly idealTree ├── mime-types@2.1.11
+351 silly idealTree ├── mime@1.3.4
+351 silly idealTree ├── minimist@0.0.8
+351 silly idealTree ├── mkdirp@0.5.1
+351 silly idealTree ├── ms@0.7.1
+351 silly idealTree ├── nan@2.5.0
+351 silly idealTree ├── negotiator@0.6.1
+351 silly idealTree ├── object-component@0.0.3
+351 silly idealTree ├── on-finished@2.3.0
+351 silly idealTree ├── optimist@0.3.7
+351 silly idealTree ├── options@0.0.6
+351 silly idealTree ├── parsejson@0.0.1
+351 silly idealTree ├── parseqs@0.0.2
+351 silly idealTree ├── parseuri@0.0.4
+351 silly idealTree ├── parseurl@1.3.1
+351 silly idealTree ├── path-to-regexp@0.1.7
+351 silly idealTree ├── promise@6.1.0
+351 silly idealTree ├── proxy-addr@1.1.2
+351 silly idealTree ├── qrcode@0.5.0
+351 silly idealTree ├── qs@6.2.0
+351 silly idealTree ├── range-parser@1.2.0
+351 silly idealTree ├── repeat-string@1.5.4
+351 silly idealTree ├── right-align@0.1.3
+351 silly idealTree ├── send@0.14.1
+351 silly idealTree ├── serve-static@1.11.1
+351 silly idealTree ├── setprototypeof@1.0.1
+351 silly idealTree ├─┬ socket.io-adapter@0.4.0
+351 silly idealTree │ └─┬ socket.io-parser@2.2.2
+351 silly idealTree │   └── debug@0.7.4
+351 silly idealTree ├─┬ socket.io-client@1.4.8
+351 silly idealTree │ └── component-emitter@1.2.0
+351 silly idealTree ├─┬ socket.io-parser@2.2.6
+351 silly idealTree │ └── json3@3.3.2
+351 silly idealTree ├── socket.io@1.4.8
+351 silly idealTree ├── source-map@0.4.4
+351 silly idealTree ├── statuses@1.3.0
+351 silly idealTree ├── to-array@0.1.4
+351 silly idealTree ├── to-utf8@0.0.1
+351 silly idealTree ├─┬ transformers@2.1.0
+351 silly idealTree │ ├── is-promise@1.0.1
+351 silly idealTree │ ├── promise@2.0.0
+351 silly idealTree │ ├── source-map@0.1.43
+351 silly idealTree │ └── uglify-js@2.2.5
+351 silly idealTree ├── type-is@1.6.13
+351 silly idealTree ├─┬ uglify-js@2.7.0
+351 silly idealTree │ └── source-map@0.5.6
+351 silly idealTree ├── uglify-to-browserify@1.0.2
+351 silly idealTree ├── ultron@1.0.2
+351 silly idealTree ├── unpipe@1.0.0
+351 silly idealTree ├── utf8@2.1.0
+351 silly idealTree ├── utils-merge@1.0.0
+351 silly idealTree ├── vary@1.1.0
+351 silly idealTree ├── void-elements@2.0.1
+351 silly idealTree ├── window-size@0.1.0
+351 silly idealTree ├─┬ with@4.0.3
+351 silly idealTree │ └── acorn@1.2.2
+351 silly idealTree ├── wordwrap@0.0.3
+351 silly idealTree ├── ws@1.1.0
+351 silly idealTree ├── xmlhttprequest-ssl@1.5.1
+351 silly idealTree ├── yargs@3.10.0
+351 silly idealTree └── yeast@0.1.2
+352 silly generateActionsToTake Starting
+353 silly install generateActionsToTake
+354 silly generateActionsToTake Finishing
+355 silly diffTrees action count 7
+356 silly diffTrees add base64-js@0.0.2
+357 silly diffTrees add nan@2.5.0
+358 silly diffTrees add to-utf8@0.0.1
+359 silly diffTrees add bops@0.0.6
+360 silly diffTrees add canvas@1.3.16
+361 silly diffTrees add colors@1.1.2
+362 silly diffTrees add qrcode@0.5.0
+363 silly decomposeActions action count 56
+364 silly decomposeActions fetch base64-js@0.0.2
+365 silly decomposeActions extract base64-js@0.0.2
+366 silly decomposeActions test base64-js@0.0.2
+367 silly decomposeActions preinstall base64-js@0.0.2
+368 silly decomposeActions build base64-js@0.0.2
+369 silly decomposeActions install base64-js@0.0.2
+370 silly decomposeActions postinstall base64-js@0.0.2
+371 silly decomposeActions finalize base64-js@0.0.2
+372 silly decomposeActions fetch nan@2.5.0
+373 silly decomposeActions extract nan@2.5.0
+374 silly decomposeActions test nan@2.5.0
+375 silly decomposeActions preinstall nan@2.5.0
+376 silly decomposeActions build nan@2.5.0
+377 silly decomposeActions install nan@2.5.0
+378 silly decomposeActions postinstall nan@2.5.0
+379 silly decomposeActions finalize nan@2.5.0
+380 silly decomposeActions fetch to-utf8@0.0.1
+381 silly decomposeActions extract to-utf8@0.0.1
+382 silly decomposeActions test to-utf8@0.0.1
+383 silly decomposeActions preinstall to-utf8@0.0.1
+384 silly decomposeActions build to-utf8@0.0.1
+385 silly decomposeActions install to-utf8@0.0.1
+386 silly decomposeActions postinstall to-utf8@0.0.1
+387 silly decomposeActions finalize to-utf8@0.0.1
+388 silly decomposeActions fetch bops@0.0.6
+389 silly decomposeActions extract bops@0.0.6
+390 silly decomposeActions test bops@0.0.6
+391 silly decomposeActions preinstall bops@0.0.6
+392 silly decomposeActions build bops@0.0.6
+393 silly decomposeActions install bops@0.0.6
+394 silly decomposeActions postinstall bops@0.0.6
+395 silly decomposeActions finalize bops@0.0.6
+396 silly decomposeActions fetch canvas@1.3.16
+397 silly decomposeActions extract canvas@1.3.16
+398 silly decomposeActions test canvas@1.3.16
+399 silly decomposeActions preinstall canvas@1.3.16
+400 silly decomposeActions build canvas@1.3.16
+401 silly decomposeActions install canvas@1.3.16
+402 silly decomposeActions postinstall canvas@1.3.16
+403 silly decomposeActions finalize canvas@1.3.16
+404 silly decomposeActions fetch colors@1.1.2
+405 silly decomposeActions extract colors@1.1.2
+406 silly decomposeActions test colors@1.1.2
+407 silly decomposeActions preinstall colors@1.1.2
+408 silly decomposeActions build colors@1.1.2
+409 silly decomposeActions install colors@1.1.2
+410 silly decomposeActions postinstall colors@1.1.2
+411 silly decomposeActions finalize colors@1.1.2
+412 silly decomposeActions fetch qrcode@0.5.0
+413 silly decomposeActions extract qrcode@0.5.0
+414 silly decomposeActions test qrcode@0.5.0
+415 silly decomposeActions preinstall qrcode@0.5.0
+416 silly decomposeActions build qrcode@0.5.0
+417 silly decomposeActions install qrcode@0.5.0
+418 silly decomposeActions postinstall qrcode@0.5.0
+419 silly decomposeActions finalize qrcode@0.5.0
+420 silly runTopLevelLifecycles Starting
+421 silly executeActions Starting
+422 silly install executeActions
+423 silly doSerial global-install 0
+424 silly doParallel fetch 7
+425 verbose correctMkdir /home/amr/.npm/_locks correctMkdir not in flight; initializing
+426 verbose lock using /home/amr/.npm/_locks/staging-e3ff35d37774ce25.lock for /home/amr/Development/Games/ball/node_modules/.staging
+427 silly doParallel extract 7
+428 silly extract base64-js@0.0.2
+429 silly extract nan@2.5.0
+430 silly extract to-utf8@0.0.1
+431 silly extract bops@0.0.6
+432 silly extract canvas@1.3.16
+433 silly extract colors@1.1.2
+434 silly extract qrcode@0.5.0
+435 verbose unbuild node_modules/.staging/base64-js-3adc4fc7
+436 verbose unbuild node_modules/.staging/nan-67e0d94f
+437 verbose unbuild node_modules/.staging/to-utf8-45ebb1bf
+438 verbose unbuild node_modules/.staging/bops-0f5c8a3b
+439 verbose unbuild node_modules/.staging/canvas-5aff4237
+440 verbose unbuild node_modules/.staging/colors-ff10bfe2
+441 verbose unbuild node_modules/.staging/qrcode-2bde110a
+442 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/base64-js-3adc4fc7 is being purged from base /home/amr/Development/Games/ball
+443 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/base64-js-3adc4fc7
+444 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/nan-67e0d94f is being purged from base /home/amr/Development/Games/ball
+445 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/nan-67e0d94f
+446 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/to-utf8-45ebb1bf is being purged from base /home/amr/Development/Games/ball
+447 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/to-utf8-45ebb1bf
+448 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/bops-0f5c8a3b is being purged from base /home/amr/Development/Games/ball
+449 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/bops-0f5c8a3b
+450 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/canvas-5aff4237 is being purged from base /home/amr/Development/Games/ball
+451 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/canvas-5aff4237
+452 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/colors-ff10bfe2 is being purged from base /home/amr/Development/Games/ball
+453 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/colors-ff10bfe2
+454 verbose tar unpack /home/amr/.npm/base64-js/0.0.2/package.tgz
+455 verbose tar unpacking to /home/amr/Development/Games/ball/node_modules/.staging/base64-js-3adc4fc7
+456 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/base64-js-3adc4fc7 is being purged
+457 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/base64-js-3adc4fc7
+458 verbose tar unpack /home/amr/.npm/nan/2.5.0/package.tgz
+459 verbose tar unpacking to /home/amr/Development/Games/ball/node_modules/.staging/nan-67e0d94f
+460 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/nan-67e0d94f is being purged
+461 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/nan-67e0d94f
+462 verbose tar unpack /home/amr/.npm/to-utf8/0.0.1/package.tgz
+463 verbose tar unpacking to /home/amr/Development/Games/ball/node_modules/.staging/to-utf8-45ebb1bf
+464 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/to-utf8-45ebb1bf is being purged
+465 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/to-utf8-45ebb1bf
+466 verbose tar unpack /home/amr/.npm/bops/0.0.6/package.tgz
+467 verbose tar unpacking to /home/amr/Development/Games/ball/node_modules/.staging/bops-0f5c8a3b
+468 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/bops-0f5c8a3b is being purged
+469 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/bops-0f5c8a3b
+470 verbose tar unpack /home/amr/.npm/canvas/1.3.16/package.tgz
+471 verbose tar unpacking to /home/amr/Development/Games/ball/node_modules/.staging/canvas-5aff4237
+472 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/canvas-5aff4237 is being purged
+473 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/canvas-5aff4237
+474 verbose tar unpack /home/amr/.npm/colors/1.1.2/package.tgz
+475 verbose tar unpacking to /home/amr/Development/Games/ball/node_modules/.staging/colors-ff10bfe2
+476 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/colors-ff10bfe2 is being purged
+477 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/colors-ff10bfe2
+478 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/qrcode-2bde110a is being purged from base /home/amr/Development/Games/ball
+479 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/qrcode-2bde110a
+480 silly gunzTarPerm modes [ '775', '664' ]
+481 silly gunzTarPerm modes [ '775', '664' ]
+482 silly gunzTarPerm modes [ '775', '664' ]
+483 silly gunzTarPerm modes [ '775', '664' ]
+484 silly gunzTarPerm modes [ '775', '664' ]
+485 silly gunzTarPerm modes [ '775', '664' ]
+486 verbose tar unpack /home/amr/.npm/qrcode/0.5.0/package.tgz
+487 verbose tar unpacking to /home/amr/Development/Games/ball/node_modules/.staging/qrcode-2bde110a
+488 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/qrcode-2bde110a is being purged
+489 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/qrcode-2bde110a
+490 silly gunzTarPerm modes [ '775', '664' ]
+491 silly gunzTarPerm extractEntry package.json
+492 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+493 silly gunzTarPerm extractEntry package.json
+494 silly gunzTarPerm extractEntry package.json
+495 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+496 silly gunzTarPerm extractEntry package.json
+497 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+498 silly gunzTarPerm extractEntry package.json
+499 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+500 silly gunzTarPerm extractEntry package.json
+501 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+502 silly gunzTarPerm extractEntry package.json
+503 silly gunzTarPerm extractEntry README.md
+504 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+505 silly gunzTarPerm extractEntry lib/b64.js
+506 silly gunzTarPerm modified mode [ 'lib/b64.js', 420, 436 ]
+507 silly gunzTarPerm extractEntry README.md
+508 silly gunzTarPerm extractEntry README.md
+509 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+510 silly gunzTarPerm extractEntry index.js
+511 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+512 silly gunzTarPerm extractEntry README.md
+513 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+514 silly gunzTarPerm extractEntry copy.js
+515 silly gunzTarPerm modified mode [ 'copy.js', 420, 436 ]
+516 silly gunzTarPerm extractEntry .npmignore
+517 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+518 silly gunzTarPerm extractEntry index.js
+519 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+520 silly gunzTarPerm extractEntry LICENSE
+521 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+522 silly gunzTarPerm extractEntry safe.js
+523 silly gunzTarPerm modified mode [ 'safe.js', 420, 436 ]
+524 silly gunzTarPerm extractEntry include_dirs.js
+525 silly gunzTarPerm extractEntry .npmignore
+526 silly gunzTarPerm extractEntry README.md
+527 silly gunzTarPerm extractEntry test/runner.js
+528 silly gunzTarPerm modified mode [ 'test/runner.js', 420, 436 ]
+529 silly gunzTarPerm extractEntry test.js
+530 silly gunzTarPerm modified mode [ 'test.js', 420, 436 ]
+531 silly gunzTarPerm extractEntry nan_converters.h
+532 silly gunzTarPerm extractEntry CHANGELOG.md
+533 silly gunzTarPerm extractEntry LICENSE.md
+534 silly gunzTarPerm extractEntry from.js
+535 silly gunzTarPerm modified mode [ 'from.js', 420, 436 ]
+536 silly gunzTarPerm extractEntry index.js
+537 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+538 silly gunzTarPerm extractEntry Readme.md
+539 silly gunzTarPerm modified mode [ 'Readme.md', 420, 436 ]
+540 silly gunzTarPerm extractEntry binding.gyp
+541 silly gunzTarPerm modified mode [ 'binding.gyp', 493, 509 ]
+542 silly gunzTarPerm extractEntry ReadMe.md
+543 silly gunzTarPerm modified mode [ 'ReadMe.md', 420, 436 ]
+544 silly gunzTarPerm extractEntry examples/normal-usage.js
+545 silly gunzTarPerm modified mode [ 'examples/normal-usage.js', 420, 436 ]
+546 silly gunzTarPerm extractEntry build.js
+547 silly gunzTarPerm extractEntry qrcode.js
+548 silly gunzTarPerm extractEntry doc/node_misc.md
+549 silly gunzTarPerm extractEntry .travis.yml
+550 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+551 silly gunzTarPerm extractEntry is.js
+552 silly gunzTarPerm modified mode [ 'is.js', 420, 436 ]
+553 silly gunzTarPerm extractEntry join.js
+554 silly gunzTarPerm modified mode [ 'join.js', 420, 436 ]
+555 silly gunzTarPerm extractEntry examples/safe-string.js
+556 silly gunzTarPerm modified mode [ 'examples/safe-string.js', 420, 436 ]
+557 silly gunzTarPerm extractEntry lib/colors.js
+558 silly gunzTarPerm modified mode [ 'lib/colors.js', 420, 436 ]
+559 silly gunzTarPerm extractEntry qrcodeclient.js
+560 silly gunzTarPerm extractEntry doc/asyncworker.md
+561 silly gunzTarPerm extractEntry doc/callback.md
+562 silly gunzTarPerm extractEntry lib/bindings.js
+563 silly gunzTarPerm modified mode [ 'lib/bindings.js', 420, 436 ]
+564 silly gunzTarPerm extractEntry lib/canvas.js
+565 silly gunzTarPerm modified mode [ 'lib/canvas.js', 420, 436 ]
+566 silly gunzTarPerm extractEntry create.js
+567 silly gunzTarPerm modified mode [ 'create.js', 420, 436 ]
+568 silly gunzTarPerm extractEntry subarray.js
+569 silly gunzTarPerm modified mode [ 'subarray.js', 420, 436 ]
+570 silly gunzTarPerm extractEntry lib/extendStringPrototype.js
+571 silly gunzTarPerm modified mode [ 'lib/extendStringPrototype.js', 420, 436 ]
+572 silly gunzTarPerm extractEntry lib/qrcapacitytable.js
+573 silly gunzTarPerm extractEntry lib/qrcode-draw.js
+574 silly gunzTarPerm extractEntry doc/converters.md
+575 silly gunzTarPerm extractEntry doc/errors.md
+576 silly gunzTarPerm extractEntry to.js
+577 silly gunzTarPerm modified mode [ 'to.js', 420, 436 ]
+578 silly gunzTarPerm extractEntry write.js
+579 silly gunzTarPerm modified mode [ 'write.js', 420, 436 ]
+580 silly gunzTarPerm extractEntry lib/context2d.js
+581 silly gunzTarPerm modified mode [ 'lib/context2d.js', 420, 436 ]
+582 silly gunzTarPerm extractEntry lib/image.js
+583 silly gunzTarPerm modified mode [ 'lib/image.js', 420, 436 ]
+584 silly gunzTarPerm extractEntry lib/index.js
+585 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 436 ]
+586 silly gunzTarPerm extractEntry lib/styles.js
+587 silly gunzTarPerm modified mode [ 'lib/styles.js', 420, 436 ]
+588 silly gunzTarPerm extractEntry lib/qrcode.js
+589 silly gunzTarPerm extractEntry lib/svgrender.js
+590 silly gunzTarPerm extractEntry doc/maybe_types.md
+591 silly gunzTarPerm extractEntry doc/methods.md
+592 silly gunzTarPerm extractEntry doc/new.md
+593 silly gunzTarPerm extractEntry read.js
+594 silly gunzTarPerm modified mode [ 'read.js', 420, 436 ]
+595 silly gunzTarPerm extractEntry test/copy.js
+596 silly gunzTarPerm modified mode [ 'test/copy.js', 420, 436 ]
+597 silly gunzTarPerm extractEntry lib/jpegstream.js
+598 silly gunzTarPerm modified mode [ 'lib/jpegstream.js', 420, 436 ]
+599 silly gunzTarPerm extractEntry lib/pngstream.js
+600 silly gunzTarPerm modified mode [ 'lib/pngstream.js', 420, 436 ]
+601 silly gunzTarPerm extractEntry lib/custom/trap.js
+602 silly gunzTarPerm modified mode [ 'lib/custom/trap.js', 420, 436 ]
+603 silly gunzTarPerm extractEntry lib/custom/zalgo.js
+604 silly gunzTarPerm modified mode [ 'lib/custom/zalgo.js', 420, 436 ]
+605 silly gunzTarPerm extractEntry lib/termialrender.js
+606 silly gunzTarPerm extractEntry build/qrcode.js
+607 silly gunzTarPerm extractEntry doc/buffers.md
+608 silly gunzTarPerm extractEntry doc/object_wrappers.md
+609 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/to-utf8-45ebb1bf/node_modules is being purged
+610 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/to-utf8-45ebb1bf/node_modules
+611 silly gunzTarPerm extractEntry test/create.js
+612 silly gunzTarPerm modified mode [ 'test/create.js', 420, 436 ]
+613 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/base64-js-3adc4fc7/node_modules is being purged
+614 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/base64-js-3adc4fc7/node_modules
+615 silly gunzTarPerm extractEntry History.md
+616 silly gunzTarPerm modified mode [ 'History.md', 420, 436 ]
+617 silly gunzTarPerm extractEntry src/Image.cc
+618 silly gunzTarPerm modified mode [ 'src/Image.cc', 420, 436 ]
+619 silly gunzTarPerm extractEntry build/qrcode.min.js
+620 silly gunzTarPerm extractEntry build/.g
+621 silly gunzTarPerm extractEntry lib/maps/america.js
+622 silly gunzTarPerm modified mode [ 'lib/maps/america.js', 420, 436 ]
+623 silly gunzTarPerm extractEntry lib/maps/rainbow.js
+624 silly gunzTarPerm modified mode [ 'lib/maps/rainbow.js', 420, 436 ]
+625 silly gunzTarPerm extractEntry doc/persistent.md
+626 silly gunzTarPerm extractEntry doc/scopes.md
+627 silly gunzTarPerm extractEntry test/from.js
+628 silly gunzTarPerm modified mode [ 'test/from.js', 420, 436 ]
+629 silly gunzTarPerm extractEntry test/index.js
+630 silly gunzTarPerm modified mode [ 'test/index.js', 420, 436 ]
+631 silly gunzTarPerm extractEntry src/Canvas.cc
+632 silly gunzTarPerm modified mode [ 'src/Canvas.cc', 420, 436 ]
+633 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+634 silly gunzTarPerm modified mode [ 'src/CanvasGradient.cc', 420, 436 ]
+635 silly gunzTarPerm extractEntry .jshintignore
+636 silly gunzTarPerm extractEntry .travis.yml
+637 silly gunzTarPerm extractEntry lib/maps/random.js
+638 silly gunzTarPerm modified mode [ 'lib/maps/random.js', 420, 436 ]
+639 silly gunzTarPerm extractEntry lib/maps/zebra.js
+640 silly gunzTarPerm modified mode [ 'lib/maps/zebra.js', 420, 436 ]
+641 silly gunzTarPerm extractEntry doc/script.md
+642 silly gunzTarPerm extractEntry doc/string_bytes.md
+643 silly gunzTarPerm extractEntry test/is.js
+644 silly gunzTarPerm modified mode [ 'test/is.js', 420, 436 ]
+645 silly gunzTarPerm extractEntry test/join.js
+646 silly gunzTarPerm modified mode [ 'test/join.js', 420, 436 ]
+647 silly gunzTarPerm extractEntry src/CanvasGradient.h
+648 silly gunzTarPerm modified mode [ 'src/CanvasGradient.h', 420, 436 ]
+649 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+650 silly gunzTarPerm modified mode [ 'src/CanvasPattern.cc', 420, 436 ]
+651 silly gunzTarPerm extractEntry license
+652 silly gunzTarPerm extractEntry test/cli.js
+653 silly gunzTarPerm extractEntry test/clientsideserver.js
+654 silly gunzTarPerm extractEntry lib/system/supports-colors.js
+655 silly gunzTarPerm modified mode [ 'lib/system/supports-colors.js', 420, 436 ]
+656 silly gunzTarPerm extractEntry themes/generic-logging.js
+657 silly gunzTarPerm modified mode [ 'themes/generic-logging.js', 420, 436 ]
+658 silly gunzTarPerm extractEntry test/read.js
+659 silly gunzTarPerm modified mode [ 'test/read.js', 420, 436 ]
+660 silly gunzTarPerm extractEntry test/subarray.js
+661 silly gunzTarPerm modified mode [ 'test/subarray.js', 420, 436 ]
+662 silly gunzTarPerm extractEntry test/save.js
+663 silly gunzTarPerm extractEntry doc/v8_internals.md
+664 silly gunzTarPerm extractEntry doc/v8_misc.md
+665 silly gunzTarPerm extractEntry src/CanvasPattern.h
+666 silly gunzTarPerm modified mode [ 'src/CanvasPattern.h', 420, 436 ]
+667 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+668 silly gunzTarPerm modified mode [ 'src/CanvasRenderingContext2d.cc', 493, 509 ]
+669 silly gunzTarPerm extractEntry test/to.js
+670 silly gunzTarPerm modified mode [ 'test/to.js', 420, 436 ]
+671 silly gunzTarPerm extractEntry test/write.js
+672 silly gunzTarPerm modified mode [ 'test/write.js', 420, 436 ]
+673 silly gunzTarPerm extractEntry test/server.js
+674 silly gunzTarPerm extractEntry test/svg.js
+675 silly gunzTarPerm extractEntry nan.h
+676 silly gunzTarPerm extractEntry nan_callbacks.h
+677 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+678 silly gunzTarPerm modified mode [ 'src/CanvasRenderingContext2d.h', 420, 436 ]
+679 silly gunzTarPerm extractEntry src/FontFace.cc
+680 silly gunzTarPerm modified mode [ 'src/FontFace.cc', 493, 509 ]
+681 silly gunzTarPerm extractEntry typedarray/copy.js
+682 silly gunzTarPerm modified mode [ 'typedarray/copy.js', 420, 436 ]
+683 silly gunzTarPerm extractEntry typedarray/create.js
+684 silly gunzTarPerm modified mode [ 'typedarray/create.js', 420, 436 ]
+685 silly gunzTarPerm extractEntry test/url.js
+686 silly gunzTarPerm extractEntry test/clientside.html
+687 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+688 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+689 silly gunzTarPerm extractEntry typedarray/from.js
+690 silly gunzTarPerm modified mode [ 'typedarray/from.js', 420, 436 ]
+691 silly gunzTarPerm extractEntry typedarray/is.js
+692 silly gunzTarPerm modified mode [ 'typedarray/is.js', 420, 436 ]
+693 silly gunzTarPerm extractEntry src/FontFace.h
+694 silly gunzTarPerm modified mode [ 'src/FontFace.h', 420, 436 ]
+695 silly gunzTarPerm extractEntry src/Canvas.h
+696 silly gunzTarPerm modified mode [ 'src/Canvas.h', 420, 436 ]
+697 silly gunzTarPerm extractEntry test/fixtures/bacon-bikini.png
+698 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+699 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+700 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+701 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+702 silly gunzTarPerm extractEntry src/Image.h
+703 silly gunzTarPerm modified mode [ 'src/Image.h', 420, 436 ]
+704 silly gunzTarPerm extractEntry src/ImageData.cc
+705 silly gunzTarPerm modified mode [ 'src/ImageData.cc', 420, 436 ]
+706 silly gunzTarPerm extractEntry src/ImageData.h
+707 silly gunzTarPerm modified mode [ 'src/ImageData.h', 420, 436 ]
+708 silly gunzTarPerm extractEntry typedarray/join.js
+709 silly gunzTarPerm modified mode [ 'typedarray/join.js', 420, 436 ]
+710 silly gunzTarPerm extractEntry typedarray/mapped.js
+711 silly gunzTarPerm modified mode [ 'typedarray/mapped.js', 420, 436 ]
+712 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+713 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+714 silly gunzTarPerm extractEntry nan_new.h
+715 silly gunzTarPerm extractEntry src/JPEGStream.h
+716 silly gunzTarPerm modified mode [ 'src/JPEGStream.h', 420, 436 ]
+717 silly gunzTarPerm extractEntry src/PNG.h
+718 silly gunzTarPerm modified mode [ 'src/PNG.h', 420, 436 ]
+719 silly gunzTarPerm extractEntry src/Point.h
+720 silly gunzTarPerm modified mode [ 'src/Point.h', 420, 436 ]
+721 silly gunzTarPerm extractEntry nan_object_wrap.h
+722 silly gunzTarPerm extractEntry typedarray/read.js
+723 silly gunzTarPerm modified mode [ 'typedarray/read.js', 420, 436 ]
+724 silly gunzTarPerm extractEntry typedarray/subarray.js
+725 silly gunzTarPerm modified mode [ 'typedarray/subarray.js', 420, 436 ]
+726 silly gunzTarPerm extractEntry src/closure.h
+727 silly gunzTarPerm modified mode [ 'src/closure.h', 420, 436 ]
+728 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+729 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+730 silly gunzTarPerm extractEntry typedarray/to.js
+731 silly gunzTarPerm modified mode [ 'typedarray/to.js', 420, 436 ]
+732 silly gunzTarPerm extractEntry typedarray/write.js
+733 silly gunzTarPerm modified mode [ 'typedarray/write.js', 420, 436 ]
+734 silly gunzTarPerm extractEntry src/color.cc
+735 silly gunzTarPerm modified mode [ 'src/color.cc', 420, 436 ]
+736 silly gunzTarPerm extractEntry src/color.h
+737 silly gunzTarPerm modified mode [ 'src/color.h', 420, 436 ]
+738 silly gunzTarPerm extractEntry test/fixtures/bacon-love.png
+739 silly gunzTarPerm extractEntry nan_private.h
+740 silly gunzTarPerm extractEntry nan_string_bytes.h
+741 silly gunzTarPerm extractEntry src/init.cc
+742 silly gunzTarPerm modified mode [ 'src/init.cc', 493, 509 ]
+743 silly gunzTarPerm extractEntry util/has_lib.sh
+744 silly gunzTarPerm modified mode [ 'util/has_lib.sh', 493, 509 ]
+745 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+746 silly gunzTarPerm extractEntry nan_weak.h
+747 silly gunzTarPerm extractEntry test/fixtures/expected-output.svg
+748 silly gunzTarPerm extractEntry tools/package.json
+749 silly gunzTarPerm extractEntry tools/README.md
+750 silly gunzTarPerm extractEntry CONTRIBUTING.md
+751 silly gunzTarPerm extractEntry bin/qrcode
+752 silly gunzTarPerm extractEntry vendors/excanvas/README
+753 silly gunzTarPerm extractEntry vendors/excanvas/excanvas.compiled.js
+754 silly gunzTarPerm extractEntry tools/1to2.js
+755 silly gunzTarPerm extractEntry vendors/excanvas/excanvas.js
+756 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/colors-ff10bfe2/node_modules is being purged
+757 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/colors-ff10bfe2/node_modules
+758 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/nan-67e0d94f/node_modules is being purged
+759 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/nan-67e0d94f/node_modules
+760 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/bops-0f5c8a3b/node_modules is being purged
+761 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/bops-0f5c8a3b/node_modules
+762 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/canvas-5aff4237/node_modules is being purged
+763 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/canvas-5aff4237/node_modules
+764 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.staging/qrcode-2bde110a/node_modules is being purged
+765 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.staging/qrcode-2bde110a/node_modules
+766 silly doParallel preinstall 7
+767 silly preinstall base64-js@0.0.2 /home/amr/Development/Games/ball/node_modules/.staging/base64-js-3adc4fc7
+768 info lifecycle base64-js@0.0.2~preinstall: base64-js@0.0.2
+769 silly preinstall nan@2.5.0 /home/amr/Development/Games/ball/node_modules/.staging/nan-67e0d94f
+770 info lifecycle nan@2.5.0~preinstall: nan@2.5.0
+771 silly preinstall to-utf8@0.0.1 /home/amr/Development/Games/ball/node_modules/.staging/to-utf8-45ebb1bf
+772 info lifecycle to-utf8@0.0.1~preinstall: to-utf8@0.0.1
+773 silly preinstall bops@0.0.6 /home/amr/Development/Games/ball/node_modules/.staging/bops-0f5c8a3b
+774 info lifecycle bops@0.0.6~preinstall: bops@0.0.6
+775 silly preinstall canvas@1.3.16 /home/amr/Development/Games/ball/node_modules/.staging/canvas-5aff4237
+776 info lifecycle canvas@1.3.16~preinstall: canvas@1.3.16
+777 silly preinstall colors@1.1.2 /home/amr/Development/Games/ball/node_modules/.staging/colors-ff10bfe2
+778 info lifecycle colors@1.1.2~preinstall: colors@1.1.2
+779 silly preinstall qrcode@0.5.0 /home/amr/Development/Games/ball/node_modules/.staging/qrcode-2bde110a
+780 info lifecycle qrcode@0.5.0~preinstall: qrcode@0.5.0
+781 silly lifecycle base64-js@0.0.2~preinstall: no script for preinstall, continuing
+782 silly lifecycle nan@2.5.0~preinstall: no script for preinstall, continuing
+783 silly lifecycle to-utf8@0.0.1~preinstall: no script for preinstall, continuing
+784 silly lifecycle bops@0.0.6~preinstall: no script for preinstall, continuing
+785 silly lifecycle canvas@1.3.16~preinstall: no script for preinstall, continuing
+786 silly lifecycle colors@1.1.2~preinstall: no script for preinstall, continuing
+787 silly lifecycle qrcode@0.5.0~preinstall: no script for preinstall, continuing
+788 silly doReverseSerial remove 0
+789 silly doSerial move 0
+790 silly doSerial finalize 7
+791 silly finalize /home/amr/Development/Games/ball/node_modules/base64-js
+792 silly finalize /home/amr/Development/Games/ball/node_modules/nan
+793 silly finalize /home/amr/Development/Games/ball/node_modules/to-utf8
+794 silly finalize /home/amr/Development/Games/ball/node_modules/bops
+795 silly finalize /home/amr/Development/Games/ball/node_modules/canvas
+796 silly finalize /home/amr/Development/Games/ball/node_modules/colors
+797 silly finalize /home/amr/Development/Games/ball/node_modules/qrcode
+798 silly doSerial build 7
+799 silly build base64-js@0.0.2
+800 info linkStuff base64-js@0.0.2
+801 silly linkStuff base64-js@0.0.2 has /home/amr/Development/Games/ball/node_modules as its parent node_modules
+802 verbose linkBins base64-js@0.0.2
+803 verbose linkMans base64-js@0.0.2
+804 silly build nan@2.5.0
+805 info linkStuff nan@2.5.0
+806 silly linkStuff nan@2.5.0 has /home/amr/Development/Games/ball/node_modules as its parent node_modules
+807 verbose linkBins nan@2.5.0
+808 verbose linkMans nan@2.5.0
+809 silly build to-utf8@0.0.1
+810 info linkStuff to-utf8@0.0.1
+811 silly linkStuff to-utf8@0.0.1 has /home/amr/Development/Games/ball/node_modules as its parent node_modules
+812 verbose linkBins to-utf8@0.0.1
+813 verbose linkMans to-utf8@0.0.1
+814 silly build bops@0.0.6
+815 info linkStuff bops@0.0.6
+816 silly linkStuff bops@0.0.6 has /home/amr/Development/Games/ball/node_modules as its parent node_modules
+817 verbose linkBins bops@0.0.6
+818 verbose linkMans bops@0.0.6
+819 silly build canvas@1.3.16
+820 info linkStuff canvas@1.3.16
+821 silly linkStuff canvas@1.3.16 has /home/amr/Development/Games/ball/node_modules as its parent node_modules
+822 verbose linkBins canvas@1.3.16
+823 verbose linkMans canvas@1.3.16
+824 silly build colors@1.1.2
+825 info linkStuff colors@1.1.2
+826 silly linkStuff colors@1.1.2 has /home/amr/Development/Games/ball/node_modules as its parent node_modules
+827 verbose linkBins colors@1.1.2
+828 verbose linkMans colors@1.1.2
+829 silly build qrcode@0.5.0
+830 info linkStuff qrcode@0.5.0
+831 silly linkStuff qrcode@0.5.0 has /home/amr/Development/Games/ball/node_modules as its parent node_modules
+832 verbose linkBins qrcode@0.5.0
+833 verbose link bins [ { qrcode: './bin/qrcode' },
+833 verbose link bins   '/home/amr/Development/Games/ball/node_modules/.bin',
+833 verbose link bins   false ]
+834 verbose linkMans qrcode@0.5.0
+835 silly gentlyRm /home/amr/Development/Games/ball/node_modules/.bin/qrcode is being purged
+836 verbose gentlyRm don't care about contents; nuking /home/amr/Development/Games/ball/node_modules/.bin/qrcode
+837 silly doSerial global-link 0
+838 silly doParallel update-linked 0
+839 silly doSerial install 7
+840 silly install base64-js@0.0.2 /home/amr/Development/Games/ball/node_modules/.staging/base64-js-3adc4fc7
+841 info lifecycle base64-js@0.0.2~install: base64-js@0.0.2
+842 silly lifecycle base64-js@0.0.2~install: no script for install, continuing
+843 silly install nan@2.5.0 /home/amr/Development/Games/ball/node_modules/.staging/nan-67e0d94f
+844 info lifecycle nan@2.5.0~install: nan@2.5.0
+845 silly lifecycle nan@2.5.0~install: no script for install, continuing
+846 silly install to-utf8@0.0.1 /home/amr/Development/Games/ball/node_modules/.staging/to-utf8-45ebb1bf
+847 info lifecycle to-utf8@0.0.1~install: to-utf8@0.0.1
+848 silly lifecycle to-utf8@0.0.1~install: no script for install, continuing
+849 silly install bops@0.0.6 /home/amr/Development/Games/ball/node_modules/.staging/bops-0f5c8a3b
+850 info lifecycle bops@0.0.6~install: bops@0.0.6
+851 silly lifecycle bops@0.0.6~install: no script for install, continuing
+852 silly install canvas@1.3.16 /home/amr/Development/Games/ball/node_modules/.staging/canvas-5aff4237
+853 info lifecycle canvas@1.3.16~install: canvas@1.3.16
+854 verbose lifecycle canvas@1.3.16~install: unsafe-perm in lifecycle true
+855 verbose lifecycle canvas@1.3.16~install: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/amr/Development/Games/ball/node_modules/canvas/node_modules/.bin:/home/amr/Development/Games/ball/node_modules/.bin:/home/amr/bin:/home/amr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/amr/Downloads/android-sdk-linux/tools:/home/amr/Downloads/android-sdk-linux/platform-tools:/home/amr/Downloads/android-sdk-linux/tools:/home/amr/Downloads/android-sdk-linux/platform-tools
+856 verbose lifecycle canvas@1.3.16~install: CWD: /home/amr/Development/Games/ball/node_modules/canvas
+857 silly lifecycle canvas@1.3.16~install: Args: [ '-c', 'node-gyp rebuild' ]
+858 silly lifecycle canvas@1.3.16~install: Returned: code: 1  signal: null
+859 info lifecycle canvas@1.3.16~install: Failed to exec install script
+860 verbose unlock done using /home/amr/.npm/_locks/staging-e3ff35d37774ce25.lock for /home/amr/Development/Games/ball/node_modules/.staging
+861 silly rollbackFailedOptional Starting
+862 silly rollbackFailedOptional Finishing
+863 silly runTopLevelLifecycles Finishing
+864 silly install printInstalled
+865 warn ball@1.0.0 No repository field.
+866 verbose If you need help, you may report this error at:
+866 verbose     <https://github.com/npm/npm/issues>
+867 verbose stack Error: canvas@1.3.16 install: `node-gyp rebuild`
+867 verbose stack Exit status 1
+867 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+867 verbose stack     at emitTwo (events.js:106:13)
+867 verbose stack     at EventEmitter.emit (events.js:191:7)
+867 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+867 verbose stack     at emitTwo (events.js:106:13)
+867 verbose stack     at ChildProcess.emit (events.js:191:7)
+867 verbose stack     at maybeClose (internal/child_process.js:877:16)
+867 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+868 verbose pkgid canvas@1.3.16
+869 verbose cwd /home/amr/Development/Games/ball
+870 error Linux 4.4.0-38-generic
+871 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save" "qrcode"
+872 error node v6.8.1
+873 error npm  v3.10.8
+874 error code ELIFECYCLE
+875 error canvas@1.3.16 install: `node-gyp rebuild`
+875 error Exit status 1
+876 error Failed at the canvas@1.3.16 install script 'node-gyp rebuild'.
+876 error Make sure you have the latest version of node.js and npm installed.
+876 error If you do, this is most likely a problem with the canvas package,
+876 error not with npm itself.
+876 error Tell the author that this fails on your system:
+876 error     node-gyp rebuild
+876 error You can get information on how to open an issue for this project with:
+876 error     npm bugs canvas
+876 error Or if that isn't available, you can get their info via:
+876 error     npm owner ls canvas
+876 error There is likely additional logging output above.
+877 verbose exit [ 1, true ]
